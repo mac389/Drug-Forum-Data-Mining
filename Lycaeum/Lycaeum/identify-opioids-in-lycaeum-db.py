@@ -7,6 +7,7 @@ from collections import Counter
 import pubchempy as pcp 
 import libchebipy as chebi
 import drugstandards as standardizer
+import pandas as pd 
 
 '''
  TODO:
@@ -17,13 +18,16 @@ import drugstandards as standardizer
 
 db = json.load(open('lycaeum-forum-processed-has-drug-names.json','r'))
 
+df = pd.read_json
+
 drugs = [db[entry]['drugs'] for entry in db.keys()]
-
-
 
 
 unique_drugs = list(set(itertools.chain.from_iterable(drugs)))
 #623
+
+for drug in unique_drugs:
+	print "%s:%s"%(drug,standardizer.standardize([drug],thresh=0.95))
 
 records = []
 
