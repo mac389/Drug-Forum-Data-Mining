@@ -4,7 +4,7 @@ Having identified two substances of interest from online discussions, the goal i
 
 Overall approach
 1. Identify mentions of substances from social media. 
-1. Extract substance-substance pairs that are significantly co-mentioned
+1. Extract substance-substance pairs that are significantly co-mentioned. We assume that all subtances in our study act at the plasma membrane. We make the simplifying assumption that all ligands to a receptor activate (or inhibit) that receptor _to the same degree_. That each each receptor is always in one of three states- inhibited, neutral, activated. 
 1. For each substance in each pair, identify the signal transduction pathways in which it is reported to participate and the substance's reported role 
 1. Determine whether the combination of pathways implied by the substance-substance correlation is plausible
 
