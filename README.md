@@ -1,7 +1,9 @@
-# Drug-Forum-Data-Mining
-To gather comments on the the non-medical usage of drugs.
+# Drug Forum Data Mining
 
-<br>Currently using erowid to obtain sensations on non-medical use of drugs
+The goal of this project is to use social media to discover presviously unreported drug-drug interactions. We focus on three areas:
+1. Interactions between two approved pharmaceuticuals
+1. Off-label use of one approved pharmaceutical and unapproved substance
+1. Use of two unapproved substances. 
 
 ## Goals
  - Obtain comments on the non-medical use of drugs on forums
