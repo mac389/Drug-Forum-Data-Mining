@@ -5,5 +5,5 @@ The goal of this project is to use social media to discover presviously unreport
 1. Off-label use of one approved pharmaceutical and unapproved substance
 1. Use of two unapproved substances. 
 
-[Current post](./docs/identifyikng-pathways.md)
+[Current post](./docs/identifying-pathways.md)
 
