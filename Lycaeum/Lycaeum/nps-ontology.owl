@@ -1,0 +1,2436 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#atropa"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_spelling_variant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#alcohol"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#zolpidem"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lorazepam"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#atropine"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#atropa"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_spelling_variant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ayahausca"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_spelling_variant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#belladona"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#diphenhydramine"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#atropine"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_spelling_variant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#bufotenine"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#belladona"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_spelling_variant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#caffeine"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_spelling_variant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#codiene"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#acetaminophen"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dextroamphetamine"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dexedrine"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#valium"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#hydromorphone"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#benadryl"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dextromethorphan"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_spelling_variant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ecstacy"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#belladonna"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cannabis"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#part_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#vicodin"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#part_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#atropine"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ativan"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_spelling_variant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#opiods"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#acetaminophen"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#oxycodone"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mescaline"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#fluoxetine"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#part_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#acacia"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#soma"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#amphetamine"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#k2"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#buprenorphine"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#part_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#syrian_rue"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#harmine"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chlorpromazine"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#part_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#absinthe"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#nicotine"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#acetaminophen"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#hydrocodone"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#divinorum"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#part_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#willow"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#aspirin"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#thujone"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#alprazolam"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#caffeine"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#guarana"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#salvia"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#thujone"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dmt"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#amphetamine"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/chebi.owl#GABA_agonist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "GABA agonist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/chebi.owl#antihistamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/chebi.owl#atropa_belladonna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "atropa belladonna"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/chebi.owl#benzodiazepine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#GABA_agonist"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/chebi.owl#carisoprodol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/chebi.owl#salvia_divinorum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "salvia divinorum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/chebi.owl#synthetic_cannabinoids",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "synthetic cannabinoids"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/chebi.owl#syrian_rue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "syrian rue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/chebi.owl#willow_bark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "willow bark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#absinthe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#acacia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#acetaminophen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#adderall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#alchohol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#alcohol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#alprazolam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#benzodiazepine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#amanita",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ambien",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#amphetamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#amt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "alpha-methyltryptamine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#antibiotic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#aspirin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ativan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#benzodiazepine"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#atropa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#atropine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#aura",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ayahausca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ayahuasca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#barbiturate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#GABA_agonist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#bark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#formulation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#beer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#alcohol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#belladona",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#belladonna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#benadryl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#antihistamine"
+  }, {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#blotter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#brugmansia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#bufotenin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#bufotenine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#buprenorphine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#burning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#butane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#bzp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cabrerana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cacao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cactus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#caffeine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#caffiene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#calamus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#calcium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#calea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#california",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cannabinoids",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cannabis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cathinone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#catnip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cebil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#celexa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chamomile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chanting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chloroform",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chlorpromazine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chocolate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cigar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#clonazepam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#benzodiazepine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#coca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cocaine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#codeine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#codiene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#coffee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#coleus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#coricidin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cpm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#crack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#cubensis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#damiana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#datura",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#demon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#deprivation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#desoxyn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#det",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dexedrine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dextroamphetamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dextromethorphan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#diazepam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#benzodiazepine"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dihydrocodeine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dilaudid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dill",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dimenhydrinate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#diphenhydramine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#antihistamine"
+  }, {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#diplopterys",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dipt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#divinorum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dmt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dob",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#doc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#doi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#don",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#doxylamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#antihistamine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dpt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dramamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#antihistamine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dream",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dreaming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dxm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#dxo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ecstacy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ecstasy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ephedra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ephedrine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ether",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#explosion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#fasting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#fentanyl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#fever",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#fluid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#formulation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#fluoxetine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#formulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#freebase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#formulation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#gaba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#garlic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#gasoline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#gbl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ghb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ginger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ginkgo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ginseng",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#glory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#glue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#gold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#grapefruit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#guaifenesin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#guarana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#guard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#harmaline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#harmine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_alternate_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has alternate name"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has part"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#part_of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#has_spelling_variant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has spelling variant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#hash",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#hawaiian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#haze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#henbane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#heroin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#hydergine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#hydrocodone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#hydromorphone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#hyoscyamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid32"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#hypnotic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#iboga",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ibogaine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ibuprofen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#infusion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#formulation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#inoxia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#jah",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#k2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#kanna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#kava",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ketamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#khat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#klonopin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#kratom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#kush",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lavender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lecithin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lemon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lithium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lobelia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lorazepam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#benzodiazepine"
+  }, {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lotus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lsa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#lsd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#maca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#magnesium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mandrake",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#maoi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mbdb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mcpp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mde",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mdma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#melatonin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mescaline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#methadone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#methamphetamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#methylone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#methylphenidate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#migraine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mimosa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mmda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#moclobemide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#modafinil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mojo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#morphine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mugwort",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#mullein",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#n2o",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#naloxone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#nelumbo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#niacin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#nicotine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#nitrous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#nucifera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#nutmeg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ointment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#opiods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#opioids",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#opium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#oxide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#oxycodone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#oxycontin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#oxygen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#pain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#paint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#part_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "part of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#passion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#patch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#paxil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#pcp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#percocet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid35"
+  }, {
+    "@id" : "_:genid36"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#peyote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid37"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#phalaris",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#pharmahuasca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#phosphate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#piracetam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#pma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#pod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#police",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#poppy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#prayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#propoxyphene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#prozac",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#pseudoephedrine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#psilocin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#psilocybe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#psilocybin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#psychoactives",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#pulse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#red",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#refers_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ritalin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#ritual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#rose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#rum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#alcohol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#sage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#salvia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#sassafras",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#sativa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#scopolamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid39"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#screen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#semilanceata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#seroquel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#silver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#sinica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#skullcap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#snuff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#soma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#sound",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#source_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "source of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#part_of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid40"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#spice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid41"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#spike",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#stramonium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#suboxone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#subutex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid42"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#synthetic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#syrian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid43"
+  }, {
+    "@id" : "_:genid44"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#tank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#temazepam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#benzodiazepine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#tfmpp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#thorazine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid45"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#thujone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid46"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#tma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#tobacco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid47"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#toluene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#torch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#tramadol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#trazodone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#tryptophan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#tyrosine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#valerian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#valium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#benzodiazepine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#venom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#viagra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#vicks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#vicodin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid48"
+  }, {
+    "@id" : "_:genid49"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#vitamin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#willow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid50"
+  }, {
+    "@id" : "_:genid51"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#alcohol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#withdrawal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#wormwood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#object"
+  }, {
+    "@id" : "_:genid52"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#xanax",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/chebi.owl#benzodiazepine"
+  }, {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#yerba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  }, {
+    "@id" : "_:genid54"
+  }, {
+    "@id" : "_:genid55"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#yoga",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#yohimbe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#yopo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#zacatechichi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#zoloft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#zolpidem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mac389/ontologies/2019/5/untitled-ontology-50#chemical"
+  } ]
+} ]

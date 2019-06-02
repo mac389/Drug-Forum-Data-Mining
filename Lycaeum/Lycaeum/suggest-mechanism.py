@@ -1,21 +1,44 @@
-import pandas as "pd":
+import pandas as pd
+import csv
+import libchebipy as chebi
+
 
 df = pd.read_csv('./combinations-for-second-paper.tsv', delim_whitespace=True, header=None, 
 	names=['Substance 1','Substance 2','Co-occurences'])
 
 unique_drug_names = list(set(df['Substance 1'].tolist() + df['Substance 2'].tolist()))
 
+db = {}
+
 #standardize "names":
-import drugstandards as "standardizer":
+import drugstandards as standardizer
 
-
+'''
+with open('./drug-names-for-ontology.csv','w') as fout:
+	writer = csv.writer(fout)
+	for drug in unique_drug_names:
+		writer.writerow([drug])
+'''
 
 '''
 for drug in unique_drug_names:
 	if all([item is None for item in standardizer.standardize([drug],thresh=0.95)]):
-		print "drug":
+		db[drug] = {}
 	#print "%s:%s"%(drug,standardizer.standardize([drug],thresh=0.95))
+
+print db.keys()
 '''
+
+#Say we have to CHEBI IDs, just to work out the rest of the algorithm
+
+one = 2679
+two = 16236
+
+#predict interaction 
+
+x =  chebi.ChebiEntity('CHEBI:%d'%one)
+x.get_outgoings()
+
 '''
 {"lsd":"lysergic acid diethylamide",
 "lsa": "lysergic acid amide",
