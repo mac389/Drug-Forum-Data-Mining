@@ -36,8 +36,30 @@ two = 16236
 
 #predict interaction 
 
-x =  chebi.ChebiEntity('CHEBI:%d'%one)
-x.get_outgoings()
+substances = {'ethanol':{'CHEBI ID':16236}, 'amphetamine':{'CHEBI ID':2679}}
+for substance in substances:
+  substances[substance]['CHEBI record'] = chebi.ChebiEntity('CHEBI:%d'%(substances[substance]['CHEBI ID']))
+
+for substance in substances: 
+	for outgoing in substances[substance]['CHEBI record'].get_outgoings():
+		target = chebi.ChebiEntity(outgoing.get_target_chebi_id())
+		print '\t' + outgoing.get_type() + '\t' + target.get_name()
+
+	for incoming in substances[substance]['CHEBI record'].get_incomings():
+		source = chebi.ChebiEntity(incoming.get_target_chebi_id())
+		print '\t' + source.get_name() + '\t' +incoming.get_type()
+
+#Combine roles
+
+
+'''
+#get KEGG accession number
+kegg_accession_number = [item.get_accession_number() for item in x.get_database_accessions()
+							if item.get_type()=='KEGG COMPOUND accession']
+
+#What KEGG pathways does this compound play in?
+from Bio.KEGG import REST
+'''
 
 '''
 {"lsd":"lysergic acid diethylamide",
