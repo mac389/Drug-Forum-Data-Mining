@@ -1,9 +1,9 @@
-import csv
-
 import pandas as pd
+import csv
 import libchebipy as chebi
 
 from bioservices import KEGG
+from Bio.KEGG import REST
 from bioservices import OmniPath
 
 from pprint import pprint 
@@ -16,7 +16,7 @@ unique_drug_names = list(set(df['Substance 1'].tolist() + df['Substance 2'].toli
 
 db = {}
 
-#standardize "names"
+#standardize "names":
 import drugstandards as standardizer
 
 '''
@@ -35,6 +35,7 @@ for drug in unique_drug_names:
 print db.keys()
 '''
 
+#Say we have to CHEBI IDs, just to work out the rest of the algorithm
 
 one = 2679
 two = 16236
