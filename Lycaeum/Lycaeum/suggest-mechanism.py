@@ -2,6 +2,12 @@ import pandas as pd
 import csv
 import libchebipy as chebi
 
+from bioservices import KEGG
+from Bio.KEGG import REST
+from bioservices import OmniPath
+
+from pprint import pprint 
+o = OmniPath()
 
 df = pd.read_csv('./combinations-for-second-paper.tsv', delim_whitespace=True, header=None, 
 	names=['Substance 1','Substance 2','Co-occurences'])
@@ -37,17 +43,55 @@ two = 16236
 #predict interaction 
 
 substances = {'ethanol':{'CHEBI ID':16236}, 'amphetamine':{'CHEBI ID':2679}}
+#relate substance to chebi entity
 for substance in substances:
-  substances[substance]['CHEBI record'] = chebi.ChebiEntity('CHEBI:%d'%(substances[substance]['CHEBI ID']))
 
+	substances[substance]['CHEBI record'] = chebi.ChebiEntity('CHEBI:%d'%(substances[substance]['CHEBI ID']))
+	kegg_accession_number = [item.get_accession_number() for item in substances[substance]['CHEBI record'].get_database_accessions()
+							if item.get_type()=='KEGG COMPOUND accession']
+	substances[substance]['KEGG accession number'] = kegg_accession_number
+
+#extract chebi properties
 for substance in substances: 
 	for outgoing in substances[substance]['CHEBI record'].get_outgoings():
 		target = chebi.ChebiEntity(outgoing.get_target_chebi_id())
 		print '\t' + outgoing.get_type() + '\t' + target.get_name()
 
+'''
+#cross-reference with kegg pathway
+request = REST.kegg_find('drug','amphetamine')
+print request.read()
+'''
+
+s = KEGG()
+x = s.find("drug",'amphetamine')
+
+pprint(o.get_interactions(['P14416','O75899']))
+
+#create map from list of proteins
+
+
+'''
+	has_role	adrenergic uptake inhibitor
+	has_role	dopamine uptake inhibitor
+	has_role	sympathomimetic agent
+	has_role	dopaminergic agent
+	has_role	adrenergic agent
+	has_role	bronchodilator agent
+
+
+	has_role	polar solvent
+	has_role	NMDA receptor antagonist
+	has_role	protein kinase C agonist
+'''
+
+
+'''
+	#Seems to matter less
 	for incoming in substances[substance]['CHEBI record'].get_incomings():
 		source = chebi.ChebiEntity(incoming.get_target_chebi_id())
-		print '\t' + source.get_name() + '\t' +incoming.get_type()
+		#print '\t' + source.get_name() + '\t' +incoming.get_type()
+'''
 
 #Combine roles
 
