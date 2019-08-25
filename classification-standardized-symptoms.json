@@ -1,269 +1,165 @@
 {
-	"motor":["dystaxia","clumsiness","tremors","hypertonic","hypotonia","hyperreflexia","fasciculation","nystagmus","hyperactivity"],
+	"motor":["dystaxia","clumsiness","tremors","hypertonic","hypotonia","hyperreflexia","fasciculation","nystagmus","hyperactivity","stagger","hypermobility","twitchy"],
 	"somatic sensation":[{"hyperesthesia":["hyperesthesia","hyperalgesia"]},"analgesia"],
 	"global nervous system":["arousal","alertness","delerieant","sensitivity","playfulness", 
-		{"dissociative":["disassociate","disassociation","dissociative","disaccoiation","dissociation",,"transference","dissassociativeness","dissociate","dissaciotaion"]},"rationality","jittery","psychosomatic","groggy","drowsiness","vigilance","vigilant","lucidity","drowsy","wakefulness","tiiirrreedd","consciousnesses",{"disoriented":["disoriented","disorientation"]},"sleeping","sleepiness","permafuck","somnolence",{"tranquilization":["tranquillization","tranquilization"]}],
-	"cognitive ability":["intelligent","imbecility",{"creativity":["creativity","creativeness"]},"senility","intellectualism","sentience","wizdom","concentration","illumination","curiosity","salience","retard","stupidity"],
-	"neurologic disorder":[{"seizures":["seizures","epilepsy","convulsions","convulsivement"]},"narcolepsy","dyslexic","myelitis","catalepsy","dementia",{"dyskinesia":["dyskinesia","diskinesia"]},"spasticity","hyperkinetic","epileptiform","paranoid","blurriness",{"neurosis":["neurosis","neuroticism"]},
-		{"blind":["blind","bliiiiiiiiiiinddddd"]},"catatonic","astigmatism","encephalitis","migraine","automatism","hemiplegia","colour-blind","quadriplegic","parasthesia","concussion","retinopathy","psychotic","parkinsonism","myoclonus","brain-damaged",{"deaf":["deaf","deafness"]},"dysthymia","choreoathetosis","hypervigilant","psychosis","glioblastoma","schizotipys","schizophrenic","schizophrenia","dystonias"],
-	"emotion":["ecstacy","indifference","agitation","agoraphobia","anhedonia","melancholia","overwhelmed","blissful","joviality","depravity","conscientiousness","blissfulness","desolation","calmness","panic","discomfort","exhilaration","bashfulness","joyfulness","apprehension","blythe","irritation","piousness","moodiness","awkwardness","wistfulness","lovejoy","panicky","agitate","euphoric","euphoria",
-			{"entheogen":["entheogenesis"]},{"empathogen":["empathogen","empathogenisity","emphthagens","empathogeny"]},"grumpiness","heartwarming","exhilarated","overwhelmingness","happy","entactogenesis"],
-	"behavior":["aggressiveness","resilience","homicidal","schizoid","tetchy","agreeableness","gregariousness","thickheadedness","histericly","accountability","sexuality","pessimism","feckless","manliness","petulant","misogynist","gluttony","virility","prolixity","introspectiveness","juvenile","introversion","talkitiveness","loquaciousness","animalistic"],
-	"use of substance":["overdose","comedown","recreationality"],
-	"perception":[{"hallucinogen":["hallucinogenic","hallucineginc","hallucinations","hallucinogenesis","hollucinages","hallucinate","hallucidelusion","hgalucingations"]},"perceptibility",
-		{"psychedelic":["psychedelic","psychedelia","psychedelic"]},"psychotomimesis","synasthesia","distortions","coprophilia","flashbacks","daydream","kaleidoscopic"],
-	"property of toxin":["intoxicating","wernicke","potheadness","emergence","re-emergence",
+		{"dissociative":["disassociate","disassociation","dissociative","disaccoiation","dissociation",,"transference","dissassociativeness","dissociate","dissaciotaion"]},"rationality","jittery","psychosomatic","groggy","drowsiness","vigilance","vigilant","lucidity","drowsy","antimigraine","wakefulness","tiiirrreedd","consciousnesses",{"disoriented":["disoriented","disorientation","disorientating"]},"sleeping","confusedness","sleepiness","edgy","sleepytime","permafuck","somnolence",{"tranquilization":["tranquillization","tranquilization"]},"delierient"],
+	"cognitive ability":["intelligent","imbecility",{"creativity":["creativity","creativeness"]},"senility","intellectualism","sentience","wizdom","concentration","illumination","curiosity","salience","retard","stupidity","incompetence","stupefied","open-mindedness","deception","confuse","muddleheadedness","insightfulness"],
+	"neurologic disorder":[{"seizures":["seizures","epilepsy","convulsions","convulsivement"]},"narcolepsy","dyslexic","myelitis","catalepsy","dementia",{"dyskinesia":["dyskinesia","diskinesia"]},"spasticity","hyperkinetic","epileptiform","paranoid","blurriness",{"neurosis":["neurosis","neuroticism"]},"braindeath",
+		{"blind":["blind","bliiiiiiiiiiinddddd"]},"catatonic","astigmatism","encephalitis","migraine","automatism","hemiplegia","colour-blind","quadriplegic","parasthesia","concussion","retinopathy","psychotic","parkinsonism","myoclonus","brain-damaged",{"deaf":["deaf","deafness"]},"dysthymia","choreoathetosis","hypervigilant","psychosis","glioblastoma","schizotipys","schizophrenic","schizophrenia","dystonias","madness"],
+	"emotion":["ecstacy","indifference","agitation","agoraphobia","anhedonia","melancholia","overwhelmed","blissful","joviality","depravity","conscientiousness","blissfulness","desolation","calmness","panic","discomfort","exhilaration","bashfulness","spirituality","joyfulness","apprehension","blythe","irritation","piousness","moodiness","awkwardness","wistfulness","lovejoy","panicky","agitate","euphoric","euphoria","happier","tranquil","merrier","gloomiest","pacifier","loneliness","aversion","berzerkness","hubris","kindness","fascination",
+			{"entheogen":["entheogenesis"]},{"empathogen":["empathogen","empathogenisity","emphthagens","empathogeny"]},"grumpiness","heartwarming","exhilarated","overwhelmingness","happy","entactogenesis",{"terrible":["terribleness"]},"seasickness","connectedness","distress","bloodlust","uneasiness","homesickness","compassion","dissolute","passionate"],
+	"behavior":["aggressiveness","resilience","homicidal","schizoid","tetchy","agreeableness","gregariousness","thickheadedness","histericly","accountability","sexuality","pessimism","feckless","manliness","petulant","misogynist","gluttony","virility","prolixity","introspectiveness","juvenile","silliness","introversion","talkitiveness","talkativeness","loquaciousness","animalistic","misanthropy","belligerence","inappropriateness","childishness","cannibalism","fearlessness","tearful","hedonism","carefulness","unfriendliness","drunkardness","insensibility","selfishness","egocentricity","recklessness","temperance"],
+	"use of substance":["overdose","comedown","recreationality","toxicity","antitolerance","drugged","poisonous","tollorence","plateauing","overstimulation","enhancer","enhances","drinkability"],
+	"sense of self":["non-existence","aloneness","fatality","meaninglessness","mortality","existence"],
+	"perception":[{"hallucinogen":["hallucinogenic","hallucineginc","hallucinations","hallucinogenesis","hollucinages","hallucinate","hallucidelusion","hgalucingations"]},"perceptibility","fractalesque",
+		{"psychedelic":["psychedelic","psychedelia","psychedelic"]},"psychotomimesis","synasthesia","distortions","coprophilia","flashbacks","daydream","kaleidoscopic","illusions"],
+	"property of toxin":["intoxicating","wernicke","potheadness","emergence","re-emergence","anti-perspirant","intensify",
 		{"anticholinergic":"anticholinergic","anticholigengenic"},"cholinergic","dextrodemon","dexheadtripper","dmtworlders","shroomyness","trippyness","psycoactivity","trippppppp","toxaemia","shroomwise","trippiness",
-		{"neurotoxic":["neurotixicity","neurodamage","neurotoxisity"]},"odourless","psychetrance","neuroprotection",
-		{"serotonergic":["seretonergenic","serotonergic","hyperserotoninemia"]},"dopesickness","cocainism","dopaminergic","robodissocation","absinthism","dysarthria","methwithdrawal","morphinism","dextrodestruction","dextrorealities","salviaspace","pothangover","crackaheaddiness","headspace","cannabislike","inebriate","cocainelike","hashishism","metacrackwhore","morphinelike","hypersecretion","cottonmouth","caffeinism","serozombie","shroomatherapy","withdrawals","photosensitivity","mushroommadness","teratogenicity","addictivity",
-			{"alcohol intoxication":["drunkenness","drunk","tipsy","hallucinosus","drunken","drunker"]},"horrortrips","fuckedupedness","fuckedupness","roboshroomin","salvianaughts"],
+		{"neurotoxic":["neurotixicity","neurodamage","neurotoxisity"]},"odourless","psychetrance","neuroprotection","methhead","dextrovisions","daturaland","mushroomesque","psychoactivity","trancelike","addictions",
+		{"serotonergic":["seretonergenic","serotonergic","hyperserotoninemia"]},"dopesickness","cocainism","dopaminergic","robodissocation","absinthism","dysarthria","methwithdrawal","morphinism","dextrodestruction","dextrorealities","salviaspace","pothangover","crackaheaddiness","headspace","cannabislike","inebriate","cocainelike","hashishism","metacrackwhore","morphinelike","hypersecretion","cottonmouth","caffeinism","serozombie","shroomatherapy","withdrawals","photosensitivity","mushroommadness","teratogenicity","addictivity","neurotoxic","bodybuzz",
+			{"alcohol intoxication":["drunkenness","drunk","tipsy","hallucinosus","drunken","drunker"]},"horrortrips","fuckedupedness","fuckedupness","roboshroomin","salvianaughts","intoxication","robowarrior"],
 	"esp":["precognition","telekenesis","superconsciousness","clairvoyant","transhumanism","mysticalness","astral","dematerializes","transpersonal","syncronicities","prescience","enlightenment","ethereal","esp","spiritualdeath","interconsciousness","poltergeist","demonic","parapsychology","emanation","transhumance","hypnosis",
-		{"transcendence":["transcendent","transcendental","transcendendance","transcendence"]},"psychomanipulatory"],
+		{"transcendence":["transcendent","transcendental","transcendendance","transcendence"]},"psychomanipulatory","transcended","mystical","mysticism","synchronicity","cosmicicity"],
 	"genitourinary":["priapism","defecate","testes","dysuria","genitalia","inseminated","sodomy","contraception","sexual","dysmenorrhea","uterotonics",,"phimosis","fertility","excreted","cystolith","cystitis",],
-	"sexual activity":["onanism","sterility","anal","ejaculate","oligospermia","copulation","ejaculation","insemination","masturbating","masturbatory","copulate","fecundity","debauchery","masturbate","lust","libido","prostitution"],
-	"metabolic":["hyperlipidaemic","hyperinsulinism","rehydration","dyslipidemia","ketoacidosis","thermoregulation","hyponatraemia","methaemoglobinaemia","hypercholesterolaemia","antiobesity","hypokalaemia","hyperglycaemia","scurvy","dehydration"],
+	"sexual activity":["onanism","sterility","anal","ejaculate","oligospermia","copulation","ejaculation","insemination","masturbating","masturbatory","copulate","fecundity","debauchery","masturbate","lust","libido","prostitution","licentiousness","orgy","sensuality","hotness","libidoless"],
+	"metabolic":["hyperlipidaemic","hyperinsulinism","rehydration","dyslipidemia","ketoacidosis","thermoregulation","hyponatraemia","methaemoglobinaemia","hypercholesterolaemia","antiobesity","hypokalaemia","hyperglycaemia","scurvy","dehydration","lypodystrophy"],
 	"gastrointestinal":[{"ulcer":["ulcer","ulcerogenesis","heartburn"]},"diverticulitis","colitis","esophogitus","liver",
-		{"diarrhea":["diahorrea","diahhrea","diarrhoeal"]},"incontinence","dysphagia","antidysentry","cirrhosis","regurgitate","hypomotilitys","indigestion","oropharyngeal","constipation","bowel","shitting","defecation","bowelsplosions","nauseous"],
+		{"diarrhea":["diahorrea","diahhrea","diarrhoeal"]},"incontinence","dysphagia","antidysentry","cirrhosis","regurgitate","hypomotilitys","indigestion","oropharyngeal","constipation","bowel","shitting","defecation","bowelsplosions","nauseous","ralph"],
 	"infectious":["infect","pneumoniae","pustules","herpes","inflammation","chlamydia","cellulitis","aids","tetanus","malaria","shingle","pharyngitis","sinusitis","polio","cryptococcosis","tonsillitis","elaphantitis","tuberculosis","listeriosis","meningitis","aspergillosis","fourniers","antipyresis","gonorrhoea","std","sti","conjunctivitis","leishmaniasis","pneumonia","suppuration"],
 	"immunologic":["anaphylaxis","autoimmunity","immunoreactivity","wbc","immunomodulatory","dermatitis","fibrosis","hypersenisization","immunomodulator","scleroderma"],
 	"endocrine":["pseudohyperfeminizations","menopausal","androgenicity"],
 	"oncologic":["oncopatients","genotoxic","cancer","malignancy",
 	{"oncogenicity":["cancerogenesis","carcinogenicity","antitumor"]},"lymphoblastic"],
-	"hematologic":["haemophilia",{"hemmorhage":["hemmorhagic","haemorrhage","hemmorages"]},"hematologic","agranulocytosis","heparinization","bleeds"],
+	"hematologic":["haemophilia",{"hemmorhage":["hemmorhagic","haemorrhage","hemmorages","haemolysis"]},"hematologic","agranulocytosis","heparinization","bleeds"],
 	"renal":["nephrotoxicity"],
 	"cardiovascular":["hypertension","diaphoresis","ischaemia","heart-rate","endoarteritis","cardiac","fibrillation","heartbeat",
 		{"vasoconstriction":["vasoconsticts","vasorestriction","vasoconstriction","vasoconstrictor","vasoconstrive","vasocontrivitives"]},"angina",
 		"thrombophlebitis","thrombosis","vasculitis","thromboembolic",,"revascularisation","syncope","tachycardia","vagal","echocardiogram", "pericardium","arrhythmias","vasomotricity","tachyarrhythmias","atherogenesis","dropsy","angiogenesis","canalization","pulsating","vasodilator","atherosclerosis"],
 	"musculoskeletal":["tenosynovitis","tendonitis","osteoarthritis","fibromyaligia","messarthritis"],
 	"respiratory":[{"hypoxia":["hypoxia","hypoxic","hypoxiation"]},"exhalation","cyanosis","asphyxiation","breathes","breathless","emphysema","talcosis","bronchoconstriction","pneumonitis","aspiration","anoxia","phlegm","brocholitis","oxygenation"],
-	"unspecified":["effects","spaghettifies","disfigures","abnormalities","vigour","swollen","negativity","bedridden","shitless","postnatal","incapacitated","adaptation"],
-	"uninterpretable":["pyroscopisty","injectioneuthanasia","lesserpsilocybin","lycaeumoids","jizzfalls","transhealth","hallucinationslet","complaintscolds","postcycle","desertions","bitch","consciousnessand","pinpoint","pennant","dislymia","tells","superfast","megaintense","sludginess"],
-	"chemical process":["cytotoxic","hydrogenation","dose-response","dose-dependent","excitotoxicity","synaptogenesis","carmelization","parthenogenesis","lipolysis","isotropy","gtp","glutamatergic","muscarinic","potentate","neuromodulator","senescence",{"detoxification":["detoxification","detoxifies","detox"]},"equilibrat","sterilization"],
-	"integumentary":["eyelidless","rubrefacient","flushed","yellowing","alopecia","piloerection"],
-	"place references":["cannaspace","eleusis","excitatory","inpatient","hospitalisation","morgue"],
-	"song references":["chaostrophy","chaostrophy","grindcore"],
+	"uninterpretable":["pyroscopisty","injectioneuthanasia","lesserpsilocybin","lycaeumoids","jizzfalls","transhealth","hallucinationslet","complaintscolds","postcycle","desertions","bitch","consciousnessand","pinpoint","pennant","dislymia","tells","superfast","megaintense","sludginess","clamp","bury","crazy","effects","spaghettifies","disfigures","abnormalities","vigour","swollen","negativity","bedridden","shitless","postnatal","incapacitated","adaptation","bizareity","chickenshit","yukky","sketchyness","keener","harshness","frank","anew","deadening","blasting","frigidness","snug"],
+	"chemical process":["cytotoxic","hydrogenation","dose-response","dose-dependent","excitotoxicity","synaptogenesis","carmelization","parthenogenesis","lipolysis","isotropy","gtp","glutamatergic","muscarinic","potentate","neuromodulator","senescence",{"detoxification":["detoxification","detoxifies","detox"]},"equilibrat","sterilization","dissipation","deteriorate","dissolution"],
+	"integumentary":["eyelidless","rubrefacient","flushed","yellowing","alopecia","piloerection","discoloration","baldness","bloodshot","paler","sunburnt","paling"],
+	"place references":["cannaspace","eleusis","excitatory","inpatient","hospitalisation","morgue","motorola"],
+	"song references":["chaostrophy","chaostrophy","grindcore","mindfucker","sepulfreak"],
 	"activity references":["heartspace","crips","breathwork","coldshock","mindexplorer","mindthoughts"],
-	"written media references":["mindbender","mindviruses","justiciar","jabberwalking","fractalverse","freedonseeker"],
-	"misclassified":["clorazepate","ericaceous","nicaea","leucophylla","laconia","psilophoria","parvifolia","leucocephala","terpenes","adrenalin","torus","gatt","vertcillate","morley","dandenongs","cobiella","philomena","benzofury","sillycyber","benin"],
+	"written media references":["mindbender","mindviruses","justiciar","jabberwalking","fractalverse","freedonseeker","crawlspace","technohippie","entertainment","dreamspace","thoughtforms","moodspaces","brainstorm"],
+	"misclassified":["clorazepate","ericaceous","nicaea","leucophylla","laconia","psilophoria","parvifolia","leucocephala","terpenes","adrenalin","torus","gatt","vertcillate","morley","dandenongs","cobiella","philomena","benzofury","sillycyber","benin","boyd","nauseum","intraocular","shitspeak","demonization","shirtlessness","eardrum","consultation","euthanasia","nekkidness","heroism","border","thongs","asshole","solipsism","stench","cybernetic"],
 
 }
 
+tiredness
 interactivity
-paler
 fluidness
 affliction
 alienate
-deception
 conservation
 soothes
 heaviness
-deteriorate
-yukky
-madness
-misanthropy
-carefulness
-cannibalism
-thongs
-chickenshit
-entertainment
-confuse
-terribleness
 craziest
-mortality
 presaging
 feelgood
 disability
 reorientation
 deathly
 misusing
-plateauing
 excercise
-dissolute
 artificial
-trancelike
-harshness
 stiffer
-hotness
-tiredness
-spirituality
-pacifier
 slapping
 squirt
 strain
-drugged
 misunderstandings
 prosodic
 skinniness
-non-existence
-licentiousness
 experiential
-incompetence
-heroism
 popping
 tireless
 incapacitate
-tearful
-antitolerance
-loneliness
 patience
-aloneness
-merrier
 anorexic
-fractalesque
-lypodystrophy
 psychophysical
 accentuates
 closeness
-fatality
-distress
 sweet
-stench
-childishness
 lifespan
-happier
 humiliation
 exuberance
-fascination
-silliness
-deadening
-blasting
 neuroflotsam
-poisonous
 extascy
 drifting
 headful
 meatsack
 irks
-stagger
 escapism
-bury
 phonic
-gloomiest
-addictions
-consultation
 ecstasies
 friendlies
 ambivalence
 conspicuousness
 torment
-border
-demonization
 evocation
-frigidness
 chilling
-euthanasia
-discoloration
 nervy
-hubris
-crazy
-orgy
 overdone
-stupefied 
 surrealist
 surrealism
-existence
-shitspeak
 goofy
-clamp
-bizareity
 courage
 tolerate
 headships
 junkydom
-muddleheadedness
-sleepytime
-bloodshot
-frank
-sketchyness
-keener
 defattin
 perplexed
 defiant
 supercharged
-cybernetic
 visionary
-egocentricity
 splendor
 scratchy
 distaste
 morale
 whimpering
-meaninglessness
 terrifies
 calmer
 terrified
 stumbled
 increments
-snug
-unfriendliness
+
 incompleteness
-insensibility
 speechless
 belittle
 smoothness
-inappropriateness
-mindfucker
 disposal
-fearlessness
 impedes
 dickie
-asshole
 saddens
-technohippie
-berzerkness
 faintness
 average
 drive
-temperance
-tranquil
 highonlife
 viciousness
 selflessness
 existance
 mumbled
-nekkidness
 screamed
 overwhelms
 whining
-homesickness
-crawlspace
-anew
 pathologies
 celebrate
 no-alcohol
-dextrovisions
-talkativeness
 squirts
-shirtlessness
-tollorence
-intraocular
 fatigue
 mummification
 spellbound
-sensuality
 brainfunctions
 powerlaughs
-bodybuzz
 dryness 
-intoxication
-recklessness
-naueseum
-brainstorm
 egokiller
 tingles
-boyd
-aversion
-open-mindedness
 freeeeeeeeeedom
 fantasticness
-enhancer
-enhances
 speechlessness
-dreamspace
-ralph
 bluesy
-motorola
-mystical
 rythmicly
 jumping
 depress
@@ -278,86 +174,36 @@ relaxant
 irritate
 detororiate
 friendship
-braindeath
 blissfully
-methhead
 decline
 evaluates
-haemolysis
 shearing
 irritability
-sepulfreak
-antimigraine
 neatness
-libidoless
-neurotoxic
-robowarrior
-cosmicicity
-delierient
-dissolution
 palsy
-drunkardness
-synchronicity
-seasickness
-connectedness
-paling
-sunburnt
-mysticism
-daturaland
-transcended
-mushroomesque
-drinkability
-insightfulness
-compassion
-anti-perspirant
 recreational
-disorientating
 amazement
 producers
-dissipation
-thoughtforms
-belligerence
-
 complexion
 enjoyment
-twitchy
 expiration
 entrapment
 headrushes
-eardrum
 translation
-intensify
-baldness
 tripstasy
 excretory
-moodspaces
 anxious
 translucent
 incapacitation
 translucency
 exacerbate
 quality
-psychoactivity
-uneasiness
-selfishness
-hedonism
-
 slept
-toxicity
-solipsism
 disturbances
-passionate
 fantasizing
-kindness
-bloodlust
-overstimulation
-hypermobility
 astonishes
 vocalise
-confusedness
 fade-out
-edgy
-illusions
 sharpener
 visualizing
 hyperstimulation
