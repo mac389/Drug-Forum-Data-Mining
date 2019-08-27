@@ -6,4 +6,4 @@ The goal of this project is to use social media to discover presviously unreport
 1. Use of two unapproved substances. 
 
 [Current post](./docs/identifying-pathways.md)
-
+[Link to Wiki](https://mac389.github.io/Drug-Forum-Data-Mining/)
