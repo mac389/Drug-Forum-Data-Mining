@@ -6,9 +6,10 @@ import numpy as np
 #from awesomeprint import ap 
 from tqdm import tqdm 
 from collections import Counter
+from awesome_print import ap
 
-ontology = json.load(open(os.path.join('..','classification-standardized-symptoms.json'),'r'))
-drugs_symptoms = json.load(open(os.path.join('.','Lycaeum','drugs_symptoms.json'),'r'))
+ontology = json.load(open(os.path.join('.','ontology.json'),'r'))
+drugs_symptoms = json.load(open(os.path.join('.','drugs_symptoms.json'),'r'))
 
 #group symptoms
 
@@ -25,19 +26,17 @@ def flatten(alist):
 classes = ontology.keys()
 drugs = drugs_symptoms.keys()
 
-arr = np.zeros((len(drugs),len(classes)))
+arr = np.zeros((len(drugs),len(classes)),dtype=int)
 
 class_symptoms = {key:set(flatten(value)) for key,value in ontology.iteritems()}
 #ap(class_symptoms)
 
-
 for i, drug in enumerate(tqdm(drugs,'Drugs')):
-	for j,classe in enumerate(tqdm(classes,'Class')):
-		arr[i,j] =  len(class_symptoms[classe] & set(drugs_symptoms[drug].keys()))
+  for j,classe in enumerate(tqdm(classes,'Class')):
+    #Count nonero symptoms
+    symptoms = {symptom for symptom,count in drugs_symptoms[drug].items() if count > 0}
+    arr[i,j] =  len(class_symptoms[classe] & symptoms)
+
 
 df = pd.DataFrame(arr,columns = classes, index=drugs)
-
-
-print len(class_symptoms['emotion'] & set(drugs_symptoms['gum'].keys()))
-
-df.to_csv(os.path.join('.','frequency-of-symptoms.csv'))
+df.to_csv('./frequency-of-symptoms.csv')
