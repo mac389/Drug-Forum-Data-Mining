@@ -7,8 +7,8 @@ import numpy as np
 from tqdm import tqdm 
 from collections import Counter
 
-ontology = json.load(open(os.path.join('.','ontology.json'),'r'))
-drugs_symptoms = json.load(open(os.path.join('.','drugs_symptoms.json'),'r'))
+ontology = json.load(open(os.path.join('..','classification-standardized-symptoms.json'),'r'))
+drugs_symptoms = json.load(open(os.path.join('.','Lycaeum','drugs_symptoms.json'),'r'))
 
 #group symptoms
 
@@ -33,7 +33,11 @@ class_symptoms = {key:set(flatten(value)) for key,value in ontology.iteritems()}
 
 for i, drug in enumerate(tqdm(drugs,'Drugs')):
 	for j,classe in enumerate(tqdm(classes,'Class')):
-		arr[i,j] =  len(class_symptoms[classe] & set(drugs_symptoms[drug]))
+		arr[i,j] =  len(class_symptoms[classe] & set(drugs_symptoms[drug].keys()))
 
 df = pd.DataFrame(arr,columns = classes, index=drugs)
-df.to_csv('./frequency-of-symptoms.csv')
+
+
+print len(class_symptoms['emotion'] & set(drugs_symptoms['gum'].keys()))
+
+df.to_csv(os.path.join('.','frequency-of-symptoms.csv'))
