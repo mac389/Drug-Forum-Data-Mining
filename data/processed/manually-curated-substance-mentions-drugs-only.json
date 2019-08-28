@@ -1,38 +1,40 @@
 {"alcohol":["zinfandel","moonshine","tequila","chardonnay"],
  "acetaminophen":["aceaminophen","acetometaphen","acetaminophen","acitomenophen","acetamidophen","acetominaphine","actetaminophen"],
  "antipsychotic":["olanzapine"],
- "anticholinergic medicine":["dipehnydramamine"],
+ "anticholinergic medicine":["dipehnydramamine","diphydranamine","chlorpromazine"],
  "anticholinergic plant":["hyscyamine"],
  "mushrooms":["amatoxin"],
- "cannabinoid receptor agonists":["mimicjuana","endocannabinoids","canibinoidal","cannabnoids","tetrahydrocannabibnols","cannabidiols"],
- "opioid":["oxycondone","hydrophone","opioids","oxycontin","hydromorphine","hydrocodine","subuxone","dihydrcodeine","carfentanil","buphrenorphine","oxycodones","opiate","naloxone","bubpronorphine"],
- "stimulants":["methmphetamine"],
- "moiety":["phenanthrene","indoleamine"],
- "functional class":["ethnogen","delusionogens","delieriants","illusionogens","dilierants","entheomation","associatives","neurotoxicants"],
- "structural class":[""],
- "hiv medications":["azt"],
- "element":["titanium","chlorine"],
+ "psychedelic":[],
+ "cannabinoid receptor agonists":["mimicjuana","endocannabinoids","canibinoidal","cannabnoids","tetrahydrocannabibnols","cannabidiols","cannibinol"],
+ "opioid":["oxycondone","hydrophone","opioids","oxycontin","hydromorphine","hydrocodine","subuxone","dihydrcodeine","carfentanil","buphrenorphine","oxycodones","opiate","naloxone","bubpronorphine","fentanyl","buprenophrine"],
+ "stimulants":["methmphetamine","adrenaline"],
+ "moiety":["phenanthrene","indoleamine","thienodiazepine","inositol"],
+ "functional class":["ethnogen","delusionogens","delieriants","illusionogens","dilierants","entheomation","associatives","neurotoxicants","delirients","psychenauts","disosotiatives","antiseptics","hepotoxin","pharmacophore","deliriants"],
+ "structural class":["tyrptamines","tryptamins","piperanzines","pheneyalmines","hydroxyindoles","phenelethylamines"],
+ "hiv medications":["azt","ritonavir"],
+ "element":["titanium","chlorine","bromide","cobalt","boron"],
  "chemical process":["dimethoxylation"],
  "unclear":["supplement"],
+ "ssri":["fluvoxamine"],
+ "maoi":["phenelzine"],
+ "chemotherapeutic":["doxorubicin"],
  "sedative":{
- "benzodiazepine":["chlorodiazepoxide","alpralozam","thienobenzodiazapine","temapzepam","clonazapem","brotizolam","triazolobenzodiazepines","alprozolam","phenazepam","alprolozam"],
+ "benzodiazepine":["chlorodiazepoxide","alpralozam","thienobenzodiazapine","temapzepam","clonazapem","brotizolam","triazolobenzodiazepines","alprozolam","phenazepam","alprolozam","estazolam","baclofen"],
  "z-drug":["zolpiclone","zolopidem","zoplidem"],
+ "tricyclic antidepressants":["imipramine"],
 }
 }
 
 
 etoperidone
 neocitron - acetaminophen, phenylephrine, pheniramine
-phenelzine
 capsaicin
 lighterfluid
 ergometrine
 jimscaline
-ritonavir
 sugarcane
 incense
 yohimbol
-tryptamins
 cholecystokinin
 bromhydrate
 phenylacetyl
@@ -66,7 +68,6 @@ leoneurine
 cecropia
 bufetonin
 tsambiras
-fluvoxamine
 glucocorticoid
 robogels
 kraal
@@ -75,17 +76,12 @@ peginterferon
 epidrine
 anabsinthol
 phenolethylamines
-antiseptics
 mexiweed
-piperanzines
 methylene
-delirients
 docusate
 siemilanceata
 uranium
 atomoxatine
-baclofen
-cobalt
 psilocybione
 pssybee
 pseudoginseng
@@ -97,10 +93,8 @@ psycothria
 phenethlamines
 phenolate
 dextromethorphan
-diphydranamine
 myristicine
 bromocryptine
-bromide
 scopalamine
 phenylketonuretics
 methandrostenolone
@@ -110,7 +104,6 @@ xanthoparmelia
 psiconauts
 potcohol
 dimethoxyphenethylamine
-pharmacophore
 monovinyl
 cascarilla
 desmodium
@@ -120,7 +113,6 @@ quercitrin
 dm100
 mchlorophenylpiperazine
 rolipram
-chlorpromazine
 mucuadinine
 methicanthinone
 dextromethporhan
@@ -129,7 +121,6 @@ hapatotoxic
 hapatotoxin
 lasiantha
 eosin
-imipramine
 chronicmonkey
 dichloromethane
 ayahuascha
@@ -143,28 +134,18 @@ desoxypegamine
 glucosamin
 tranylcypromine
 phalloidin
-hepotoxin
 commiphora
 strontium
-thienodiazepine
-psychenauts
-inositol
-hydroxyindoles
 synaptosomes
 mesalazine
 sillycyberin
 synspilum
 meskalinrausch
-adrenaline
-deliriants
 pulgerone
-disosotiatives
 pnp
-pheneyalmines
 hyoscamus
 elecampane
 ayahuascaquero
-cannibinol
 e40
 hydroxylators
 ezhydrokit
@@ -178,9 +159,7 @@ tetrahydroisoquinolines
 isomorphinans
 mitryfyna
 methylchloroisothiazalinone
-heroin
 ketorolac
-estazolam
 brugamansia
 ethacetin
 heron
@@ -241,7 +220,6 @@ dalcipran
 guifessen
 ammonium
 samara
-boron
 vobtusine
 morphinans
 ketobemidone
@@ -249,7 +227,6 @@ bacopasides
 levoamphetamine
 clortermine
 erytroxylum
-tyrptamines
 phalahuasca
 pernod
 estoril
@@ -267,10 +244,8 @@ psychedelionaughts
 truxilloensis
 glycerol
 kt22
-doxorubicin
 coricidens
 halomethanes
-phenelethylamines
 caffeine
 moldicide
 scopolamin
@@ -294,7 +269,6 @@ bromvalerylurea
 lateriflora
 ipratropium
 trimyristin
-fentanyl
 sulprostone
 anticholengenics
 secobarbitol
@@ -370,7 +344,6 @@ salbutamol
 indomethacin
 iodomethane
 cumanense
-buprenophrine
 cyclohexanone
 thymiquinone
 vinblastine
