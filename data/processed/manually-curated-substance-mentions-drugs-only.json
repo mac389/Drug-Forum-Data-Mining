@@ -5,9 +5,19 @@
  "anticholinergic plant":["hyscyamine"],
  "mushrooms":["amatoxin"],
  "cannabinoid receptor agonists":["mimicjuana","endocannabinoids","canibinoidal","cannabnoids","tetrahydrocannabibnols","cannabidiols"],
- "opioid":["oxycondone","hydrophone","opioids","oxycontin","hydromorphine","hydrocodine","subuxone","dihydrcodeine","carfentanil","buphrenorphine","oxycodones","opiate","naloxone"],
- "stimulants":[],
- "benzodiazepine":["chlorodiazepoxide","alpralozam","thienobenzodiazapine","temapzepam","clonazapem","brotizolam"]
+ "opioid":["oxycondone","hydrophone","opioids","oxycontin","hydromorphine","hydrocodine","subuxone","dihydrcodeine","carfentanil","buphrenorphine","oxycodones","opiate","naloxone","bubpronorphine"],
+ "stimulants":["methmphetamine"],
+ "moiety":["phenanthrene","indoleamine"],
+ "functional class":["ethnogen","delusionogens","delieriants","illusionogens","dilierants","entheomation","associatives","neurotoxicants"],
+ "structural class":[""],
+ "hiv medications":["azt"],
+ "element":["titanium","chlorine"],
+ "chemical process":["dimethoxylation"],
+ "unclear":["supplement"],
+ "sedative":{
+ "benzodiazepine":["chlorodiazepoxide","alpralozam","thienobenzodiazapine","temapzepam","clonazapem","brotizolam","triazolobenzodiazepines","alprozolam","phenazepam","alprolozam"],
+ "z-drug":["zolpiclone","zolopidem","zoplidem"],
+}
 }
 
 
@@ -16,14 +26,10 @@ neocitron - acetaminophen, phenylephrine, pheniramine
 phenelzine
 capsaicin
 lighterfluid
-
-chlorine
-
 ergometrine
 jimscaline
 ritonavir
 sugarcane
-
 incense
 yohimbol
 tryptamins
@@ -31,24 +37,12 @@ cholecystokinin
 bromhydrate
 phenylacetyl
 psilofrog
-
-azt
 xerampelina
 nitromethane
-phenanthrene
 benzoylecognine
-
-titanium
-methmphetamine
 cinchona
-
 adlupulone
-ethnogen
-zolpiclone
 cucurbitins
-
-
-
 scelerotia
 cipramil
 trigonella
@@ -61,36 +55,26 @@ tropicamide
 methylnaltrexone
 metergoline
 norethrindrone
-
 prion
-
 pseudomorphine
 buphanidrine
-
 oleander
 brugmansia
 xochipilli
 sertraline
-delusionogens
 leoneurine
 cecropia
 bufetonin
 tsambiras
 fluvoxamine
-dimethoxylation
 glucocorticoid
 robogels
 kraal
 simethicone
 peginterferon
 epidrine
-
-delieriants
-indoleamine
 anabsinthol
-
 phenolethylamines
-illusionogens
 antiseptics
 mexiweed
 piperanzines
@@ -109,9 +93,7 @@ benzopyrene
 valproic
 hormones
 toxicodendron
-alprolozam
 psycothria
-
 phenethlamines
 phenolate
 dextromethorphan
@@ -121,9 +103,6 @@ bromocryptine
 bromide
 scopalamine
 phenylketonuretics
-entheomation
-dilierants
-
 methandrostenolone
 guaifenisin
 grayanotoxins
@@ -149,7 +128,6 @@ johnswort
 hapatotoxic
 hapatotoxin
 lasiantha
-neurotoxicants
 eosin
 imipramine
 chronicmonkey
@@ -159,13 +137,10 @@ butorphanol
 ragwort
 fluoride
 fusarium
-triazolobenzodiazepines
 aeolidiella
 canadensis
 desoxypegamine
-
 glucosamin
-supplement
 tranylcypromine
 phalloidin
 hepotoxin
@@ -198,12 +173,10 @@ carisoprodol
 tampenensis
 psilopsyborg
 psi
-associatives
 penobarb
 tetrahydroisoquinolines
 isomorphinans
 mitryfyna
-phenazepam
 methylchloroisothiazalinone
 heroin
 ketorolac
@@ -224,14 +197,12 @@ chorpheniramine
 karalensis
 tonga
 scraton
-
 haramala
 entholzner
 alkyltrimethylammonium
 hawaiians
 chlorphentermine
 erythratine
-
 rexyrem
 butylene
 cordifolia
@@ -291,8 +262,6 @@ phenylmethyl
 bufotenine
 thalidomide
 methylxanthine
-zoplidem
-
 lsd
 psychedelionaughts
 truxilloensis
@@ -306,7 +275,6 @@ caffeine
 moldicide
 scopolamin
 strophara
-
 coriceden
 zoopharmacognosy
 cyclohexylpiperidine
@@ -325,13 +293,11 @@ isopteropodine
 bromvalerylurea
 lateriflora
 ipratropium
-zolopidem
 trimyristin
 fentanyl
 sulprostone
 anticholengenics
 secobarbitol
-alprozolam
 thioesters
 tetrapterys
 cannabis
@@ -350,7 +316,6 @@ adderallr
 hydroxyindolenine
 furamate
 arundunacea
-
 pholcodine
 solanum
 campylacantha
@@ -391,7 +356,6 @@ pregnenolone
 senecionine
 tizanidine
 vecuronium
-
 methamphetamine
 carbondioxide
 piroxicam
@@ -403,7 +367,6 @@ aconite
 mycotaxon
 serotonin
 salbutamol
-
 indomethacin
 iodomethane
 cumanense
@@ -434,7 +397,6 @@ allylescaline
 cannibidols
 anticholergenics
 dibenzodioxines
-
 coriciden
 pharmokopia
 stryrlpyrones
@@ -444,7 +406,6 @@ levmetamfetaminem
 balminil
 gyromitrin
 diisopropyltryptamine
-
 sumatriptan
 metamizole
 sinicuiche
@@ -453,7 +414,6 @@ coriamyrtine
 coriamyrtine
 nitroethane
 suphedrine
-bubpronorphine
 zecatechichi
 atomoxetine
 androstendione
