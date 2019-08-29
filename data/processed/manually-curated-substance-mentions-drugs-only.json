@@ -25,6 +25,7 @@
  "chemotherapeutic":["doxorubicin","vinblastine"],
  "serotonergic":["sumatriptan"],
  "metabolite":["benzoylecognine","methylecgonine","norhyoscyamine"],
+ "endogenous chemical":["furamate"],
  "sedative":{
  "benzodiazepine":["chlorodiazepoxide","alpralozam","thienobenzodiazapine","temapzepam","clonazapem","brotizolam","triazolobenzodiazepines","alprozolam","phenazepam","alprolozam","estazolam","baclofen","etizolams","chlodiazepoxide"],
  "z-drug":["zolpiclone","zolopidem","zoplidem"],
@@ -250,7 +251,6 @@ ecgonine
 diethylpropion
 methylcarbinolamide
 dialkyltryptamine
-furamate
 arundunacea
 pholcodine
 solanum
