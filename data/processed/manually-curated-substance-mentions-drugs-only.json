@@ -1,22 +1,23 @@
 {"alcohol":["zinfandel","moonshine","tequila","chardonnay","pernod","gerwurtzraminer","drambouie","drambuie","quinine","jagerbomb","wormwood","cointreau","curacao","chartreuse"],
  "acetaminophen":["aceaminophen","acetometaphen","acetaminophen","acitomenophen","acetamidophen","acetominaphine","actetaminophen","coriceden","tylanol","corociden","coriciden","aceteminiphen","coricidens","acetaminofen","acetominophan"],
  "antipsychotic":["olanzapine","zyprexa","risperdol","cholozaril","risperidone","respiridone","olanzipine","ziprasidone","valproic"],
- "anticholinergic medicine":["dipehnydramamine","diphydranamine","chlorpromazine","scopalamine","chorpheniramine","scopolamin","doxilamines","chlorphenramine","diphenydramine","brompheneramine","dipenhydramine","scopolamine","chlorphenamine","ipratropium","bendadryl","hydroxizine","scolopamine","diphenhyramine","difnhidramin","scopolomine","chlopheniramine","doxlyamine"],
+ "anticholinergic medicine":["dipehnydramamine","diphydranamine","chlorpromazine","scopalamine","chorpheniramine","scopolamin","doxilamines","chlorphenramine","diphenydramine","brompheneramine","dipenhydramine","scopolamine","chlorphenamine","ipratropium","bendadryl","hydroxizine","scolopamine","diphenhyramine","difnhidramin","scopolomine","chlopheniramine","doxlyamine","diphehydirnate"],
  "anticholinergic plant":["hyscyamine","strontium","hyoscamus","haramala","dosylamine","brugmansia"],
+ "anticoagulant":["hirudin"],
  "antidepressant":["etoperidone","johnswort","hypericum"],
  "plant":["mitragynia","toxicodendron","mitryfyna","tanshinones","nerolidol"],
  "ergot":["ergometrine","elymoclavine"],
  "mushrooms":["amatoxin","amainita","gyromitrin","amitoxins","xerampelina","scelerotia","campestris"],
- "psychedelic":["mescaline","psilocybione","psylicibn","pscilocybin","ayauhuasca","ayauhuasca","psyilocybin","lysergide","psycilobin","psylocybae","psilicybin","psyobilyns","psyllocybin","psillocybin","psilocibes","psilcybin","ecstasy","meskalinrausch","bromhydrate","dexmethhbr","dextromethorphan","dextromethporhan","dextroorphan","jimscaline","metergoline"],
- "cannabinoid receptor agonists":["mimicjuana","endocannabinoids","canibinoidal","cannabnoids","tetrahydrocannabibnols","cannabidiols","cannibinol","cannabis","cannibidols","cannabiniods","tetrahydrocannabinol","canniboids","cannebinol","canabinol","cannabonoids","cannibinols","cannaboidal","dronabinol","cannbidol","marihuanilla","mote"],
+ "psychedelic":["mescaline","psilocybione","psylicibn","pscilocybin","ayauhuasca","ayauhuasca","psyilocybin","lysergide","psycilobin","psylocybae","psilicybin","psyobilyns","psyllocybin","psillocybin","psilocibes","psilcybin","ecstasy","meskalinrausch","bromhydrate","dexmethhbr","dextromethorphan","dextromethporhan","dextroorphan","jimscaline","metergoline","methylendioxyamphetamine","methylenedioxymethamphetamine","mimoshausca","robogels","desmodium","allylescaline"],
+ "cannabinoid receptor agonists":["mimicjuana","endocannabinoids","canibinoidal","cannabnoids","tetrahydrocannabibnols","cannabidiols","cannibinol","cannabis","cannibidols","cannabiniods","tetrahydrocannabinol","canniboids","cannebinol","canabinol","cannabonoids","cannibinols","cannaboidal","dronabinol","cannbidol","marihuanilla","mote","chronicmonkey"],
  "sexual enhancement":["xanthoparmelia","mucuadinine"],
  "abortifacient":["pennyroyal","trigonella"],
- "vasoactive":["yohimbol"],
- "androgen/estrogen":["norethrindrone"],
+ "vasoactive":["yohimbol","pseudoginseng"],
+ "androgen/estrogen":["norethrindrone","androstendione"],
  "opioid":["oxycondone","hydrophone","opioids","oxycontin","hydromorphine","hydrocodine","subuxone","dihydrcodeine","carfentanil","buphrenorphine","oxycodones","opiate","naloxone","bubpronorphine","fentanyl","buprenophrine","endorphins","dehydromorphine","suboxyone","dihydrocodeinone","dihydrocodeinone","levomethadone","oxy","desmethylprodine","meperidine","dihydrocodine","dalaudid","buprenorhine","buprenorphine","diacetylmorphine","lefetamine","loperamide","heron","hydrocodeine","percocet","methadone","morphine","buprenorphines","bubrenorhinez","percocets","dihydromorphine","dillaudid","heroine","oxycodone","hydrocodones","laudanum","oxcodone","dialaudids","hydrochodone","bupronorphine","viocidin","pholcodine","ketobemidone","butorphanol","methylnaltrexone","pseudomorphine"],
  "nsaid":["indomethacin","ketorolac","ketorolac","piroxicam","ketoprofen"],
  "anabolic hormones":["methandrostenolone"],
- "stimulants":["methmphetamine","adrenaline","chlorphentermine","caffeine","adderallr","levoamphetamine","methylxanthine","levmetamfetaminem","psuedoethadrine","methamphetamine","phenyephrine","mephentermine","bupripion","welbutrin","pseuodoephedrine","methampethamine","metamphetamine","dexeamphetamine","noradrenaline","phenephrine","dextroamphetamines","methylphendidate","amphetamine","neurepenephrine","dextromethamphetamine","ephredrine","methylphenidiate","suphedrine","fluoroamphetamine","psydoephedrine","amphetamines","levometafetamine","norepinephrine","cocaine","epherda","dextroamphetamine","epherine","alphamethylphenethylene","methyphedidate","methamphetaine","benzedrine","psuedophedrine","dexedrine","camfetamine","adrelenin","methamphetimine","pseduoephedrine","stimulants","methampehtamine","methicanthinone","dimethylmethcathinone","pipradrol","epidrine","cascarilla","erytroxylum"],
+ "stimulants":["methmphetamine","adrenaline","chlorphentermine","caffeine","adderallr","levoamphetamine","methylxanthine","levmetamfetaminem","psuedoethadrine","methamphetamine","phenyephrine","mephentermine","bupripion","welbutrin","pseuodoephedrine","methampethamine","metamphetamine","dexeamphetamine","noradrenaline","phenephrine","dextroamphetamines","methylphendidate","amphetamine","neurepenephrine","dextromethamphetamine","ephredrine","methylphenidiate","suphedrine","fluoroamphetamine","psydoephedrine","amphetamines","levometafetamine","norepinephrine","cocaine","epherda","dextroamphetamine","epherine","alphamethylphenethylene","methyphedidate","methamphetaine","benzedrine","psuedophedrine","dexedrine","camfetamine","adrelenin","methamphetimine","pseduoephedrine","stimulants","methampehtamine","methicanthinone","dimethylmethcathinone","pipradrol","epidrine","cascarilla","erytroxylum","dimethoxyphenethylamine","atomoxatine"],
  "moiety":["phenanthrene","indoleamine","thienodiazepine","inositol","benzopyrene","hydroxyindolenine","hydroxyl","monovinyl","phenylmethyl","benzine","hydroxyphenyl","butylene","ethoxymethyl","indolamine","phenylacetyl","ethylpheryl","isomorphinans","methylene","sugarcane"],
  "functional class":["ethnogen","delusionogens","delieriants","illusionogens","dilierants","entheomation","associatives","neurotoxicants","delirients","psychenauts","disosotiatives","antiseptics","hepotoxin","pharmacophore","deliriants","grayanotoxins","illusogen",
 	"enthegens","antichoolenginics","emmenagogue","deliriogen","emapthigen","sypathomimetics","antidepressant","hulucinagen","hallucagen","antidysrhythmics","antidepressants","bronchodilators","anticholengenics","anxiolyctics","anticholergenics","hapatotoxic","hapatotoxin","anticholinerogens","etheogen","mystagogues","halucinagenics","psychotoxin","entheogensic","sympathomimetics","gabanergics","adaptogen","psychotogen","cannabimimetics","hallucinogens","secretagogues","phenethylamine","acetylcholinesterases","anticholinergenics","euthnogens","hallicigens","hormones","thymoanaesthetisers"],
@@ -28,7 +29,7 @@
  "bulking agent":["peginterferon","simethicone","docusate"],
  "cardioactive":["oleander","bufetonin","bufotenine"],
  "chemical process":["dimethoxylation","hydroxylators"],
- "misclassified":["psiconauts","psychedelionaughts","entholzner","anarchocannibis","anarchocannibis","zoopharmacognosy","synaptosomes","pharmokopia","ahyahuasceros","hopelessness","ayahauaskero","ayahuascaquero","sillycyberin","kraal"],
+ "misclassified":["psiconauts","psychedelionaughts","entholzner","anarchocannibis","anarchocannibis","zoopharmacognosy","synaptosomes","pharmokopia","ahyahuasceros","hopelessness","ayahauaskero","ayahuascaquero","sillycyberin","kraal","tsambiras"],
  "unclear":["supplement","designerdrugs","adlupulone","leoneurine","desoxypegamine","incense","psilofrog","absoroka","scofflaw","prion","buphanidrine","xochipilli","cecropia"],
  "ssri":["fluvoxamine","sertraline","venlafaxiene","venalafexine","venlafaxine","paroxetine","fluoxetine","venlafaxine","cipramil"],
  "maoi":["phenelzine","tranylcypromine","selegiline"],
@@ -43,28 +44,20 @@
  "benzodiazepine":["chlorodiazepoxide","alpralozam","thienobenzodiazapine","temapzepam","clonazapem","brotizolam","triazolobenzodiazepines","alprozolam","phenazepam","alprolozam","estazolam","baclofen","etizolams","chlodiazepoxide","klonipin","temazapam","bentsodiatzepines","lorazepam","triazolam","lormetazepam","chlordiazepoxide","meclonazepam","clobazam","librium"],
  "z-drug":["zolpiclone","zolopidem","zoplidem","zopidem","eszopiclone","benzodiazepine","rohypnol","lorazapam","zopiclone"],
 	"barbiturate":["penobarb","secobarbitol"],
- "other":["gammahydroxybutyrate","butyrolactone","rexyrem"],
+ "other":["gammahydroxybutyrate","butyrolactone","rexyrem","potcohol","anabsinthol"],
 "bromoureide":["bromvalerylurea"]},
  "tricyclic antidepressants":["imipramine","amytriptaline","mirtazapine","doxepin"],
 }
 
 neocitron - acetaminophen, phenylephrine, pheniramine
-tsambiras
-robogels
-anabsinthol
 mexiweed
 siemilanceata
-atomoxatine
 pssybee
-pseudoginseng
 psycothria
 myristicine
 bromocryptine
 phenylketonuretics
 guaifenisin
-potcohol
-dimethoxyphenethylamine
-desmodium
 desomorph
 amygdalin
 quercitrin
@@ -73,7 +66,6 @@ mchlorophenylpiperazine
 rolipram
 lasiantha
 eosin
-chronicmonkey
 ayahuascha
 ragwort
 fusarium
@@ -97,7 +89,6 @@ psi
 methylchloroisothiazalinone
 brugamansia
 ethacetin
-hirudin
 curtin
 zacetachichi
 karalensis
@@ -113,7 +104,6 @@ thioridazine
 musicmol
 triphenylphosphine
 piperonylpiperazine
-mimoshausca
 desoxypipradrol
 tubocurarine
 isomyristicin
@@ -165,7 +155,6 @@ sulprostone
 tetrapterys
 dieticyclidine
 dexshrooms
-methylenedioxymethamphetamine
 diethylpropion
 methylcarbinolamide
 dialkyltryptamine
@@ -184,7 +173,6 @@ trimethylammonium
 myprocetin
 anya
 dehydroepiandrosterone
-diphehydirnate
 colchicine
 amfebutamone
 mercaptoethyl
@@ -212,7 +200,6 @@ ferrugine
 salviacoccin
 tergretol
 mogg
-allylescaline
 dibenzodioxines
 stryrlpyrones
 balminil
@@ -224,7 +211,6 @@ coriamyrtine
 coriamyrtine
 zecatechichi
 atomoxetine
-androstendione
 tolazoline
 sulbutiamine
 methylendioxymethamphetamine
@@ -593,7 +579,6 @@ diphenhydranate
 methane
 benzoxazolyl
 dmtayahuasca
-methylendioxyamphetamine
 benzylpiprizine
 allocryptopine
 trichloroethanol
