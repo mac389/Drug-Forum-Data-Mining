@@ -10,12 +10,12 @@
  "nmda antagonist":["dieticyclidine"],
  "anticoagulant":["hirudin"],
  "antidepressant":["etoperidone","johnswort","hypericum","rolipram"],
- "plant":["mitragynia","toxicodendron","mitryfyna","tanshinones","nerolidol","elecampane","pulgerone","quercitrin","tetraphylline"],
- "ergot":["ergometrine","elymoclavine"],
+ "plant":["mitragynia","toxicodendron","mitryfyna","tanshinones","nerolidol","elecampane","pulgerone","quercitrin","tetraphylline","pseudotutine"],
+ "ergot":["ergometrine","elymoclavine","methysergide"],
  "mushrooms":["amatoxin","amainita","gyromitrin","amitoxins","xerampelina","scelerotia","campestris","phalloidin"],
  "false":["bananyocine"],
  "dopamine agonist":["bromocryptine","pramipexole","bromocriptine"],
- "psychedelic":["mescaline","psilocybione","psylicibn","pscilocybin","ayauhuasca","ayauhuasca","psyilocybin","lysergide","psycilobin","psylocybae","psilicybin","psyobilyns","psyllocybin","psillocybin","psilocibes","psilcybin","ecstasy","meskalinrausch","bromhydrate","dexmethhbr","dextromethorphan","dextromethporhan","dextroorphan","jimscaline","metergoline","divinurum","mimoshausca","allylescaline","pharamuasca","methylenedioxyphenylethylamine","salvia","salvin","dxmhbr","lsd","methylendioxymethamphetamine","dexshrooms","auhuyasca","mayahuasca","diviorum","robotussion","dmtayahuasca","mimosayahuasca","extacsy","dexmethorphan","ayahyuasca","phalahuasca","lysergacidamide","dextomethorphans","mdma","diethyltryptamine","ibogaine","methylsafrylamin","indocybin","methoxyamphetamine","ibobgaine","pcilocyn","salvornin","ayuascha","robutussin","yopohuasca","ayahuascha","pssybee","delsyum","psilocine","lysergis","siemilanceata","psycothria","diisopropyltryptamine","dm100","alphamethyltryptamine","psylocibians","diallytryptamine","psiclobin","methylenedioxyamephatemine","tampenensis","psilocyin","methylenedioxymethylamphetamine","thujjone","psicotria","isothujone","dimethyltryptamine"],
+ "psychedelic":["mescaline","psilocybione","psylicibn","pscilocybin","ayauhuasca","ayauhuasca","psyilocybin","lysergide","psycilobin","psylocybae","psilicybin","psyobilyns","psyllocybin","psillocybin","psilocibes","psilcybin","ecstasy","meskalinrausch","bromhydrate","dexmethhbr","dextromethorphan","dextromethporhan","dextroorphan","jimscaline","metergoline","divinurum","mimoshausca","allylescaline","pharamuasca","methylenedioxyphenylethylamine","salvia","salvin","dxmhbr","lsd","methylendioxymethamphetamine","dexshrooms","auhuyasca","mayahuasca","diviorum","robotussion","dmtayahuasca","mimosayahuasca","extacsy","dexmethorphan","ayahyuasca","phalahuasca","lysergacidamide","dextomethorphans","mdma","diethyltryptamine","ibogaine","methylsafrylamin","indocybin","methoxyamphetamine","ibobgaine","pcilocyn","salvornin","ayuascha","robutussin","yopohuasca","ayahuascha","pssybee","delsyum","psilocine","lysergis","siemilanceata","psycothria","diisopropyltryptamine","dm100","alphamethyltryptamine","psylocibians","diallytryptamine","psiclobin","methylenedioxyamephatemine","tampenensis","psilocyin","methylenedioxymethylamphetamine","thujjone","psicotria","isothujone","dimethyltryptamine","truxilloensis","salvimultine","myrtillocactus","taquimbalensis","ichthyoallyeinotoxism","ethacetin"],
  "cannabinoid receptor agonists":["mimicjuana","endocannabinoids","canibinoidal","cannabnoids","tetrahydrocannabibnols","cannabidiols","cannibinol","cannabis","cannibidols","cannabiniods","tetrahydrocannabinol","canniboids","cannebinol","canabinol","cannabonoids","cannibinols","cannaboidal","dronabinol","cannbidol","marihuanilla","mote","marahuanilla","mexiweed","chewbacca","cannabomb"],
  "sexual enhancement":["xanthoparmelia","mucuadinine"],
  "abortifacient":["pennyroyal","trigonella"],
@@ -24,15 +24,15 @@
  "opioid":["oxycondone","hydrophone","opioids","oxycontin","hydromorphine","hydrocodine","subuxone","dihydrcodeine","carfentanil","buphrenorphine","oxycodones","opiate","naloxone","bubpronorphine","fentanyl","buprenophrine","endorphins","dehydromorphine","suboxyone","dihydrocodeinone","dihydrocodeinone","levomethadone","oxy","desmethylprodine","meperidine","dihydrocodine","dalaudid","buprenorhine","buprenorphine","diacetylmorphine","lefetamine","loperamide","heron","hydrocodeine","percocet","methadone","morphine","buprenorphines","bubrenorhinez","percocets","dihydromorphine","dillaudid","heroine","oxycodone","hydrocodones","laudanum","oxcodone","dialaudids","hydrochodone","bupronorphine","viocidin","pholcodine","ketobemidone","butorphanol","methylnaltrexone","pseudomorphine","krokodil","kramtom","burprenorphine","propoxyphine","mytraginine","prpoxyphene","vobtusine","thebainess","dextrallorphan","somiferum","mitagynine","mitrygyna"],
  "nsaid":["indomethacin","ketorolac","ketorolac","piroxicam","ketoprofen"],
  "anabolic hormones":["methandrostenolone","norandrostenedione","dihydrotestosterone"],
- "stimulants":["methmphetamine","adrenaline","chlorphentermine","caffeine","adderallr","levoamphetamine","methylxanthine","levmetamfetaminem","psuedoethadrine","methamphetamine","phenyephrine","mephentermine","bupripion","welbutrin","pseuodoephedrine","methampethamine","metamphetamine","dexeamphetamine","noradrenaline","phenephrine","dextroamphetamines","methylphendidate","amphetamine","neurepenephrine","dextromethamphetamine","ephredrine","methylphenidiate","suphedrine","fluoroamphetamine","psydoephedrine","amphetamines","levometafetamine","norepinephrine","cocaine","epherda","dextroamphetamine","epherine","alphamethylphenethylene","methyphedidate","methamphetaine","benzedrine","psuedophedrine","dexedrine","camfetamine","adrelenin","methamphetimine","pseduoephedrine","stimulants","methampehtamine","methicanthinone","dimethylmethcathinone","pipradrol","epidrine","cascarilla","erytroxylum","dehydromethylone","mdmethcathinone","methcathione","adrafinil","dimethoxyphenethylamine","atomoxatine","piperonylpiperazine","phenylmethylpiperazine","cyclohexylpiperidine","benzylpiperazine","trifluoromethylbenzylpiperazine","methylbenzylpiperazine","mchlorophenylpiperazine","fenfluramine","atomoxetine","trifluoromethylphenylpiperazine","denzylpiperazine","psudoeph","mephedrone","benzylpiprizine","methcathanone","phenylethylpiperazine","parahydroxyamphetamine","pseudoephedine","benzylpiperadine","trifluromethylphenylpiperazine","methicathinone","phenylmethylpip","aminorex","diethylpropion","desoxypipradrol","iodophenethylamine","benzylpiperazines","methylenedioxyamphetamines","methistica","ethylphenidate","phenylpropanolamine","trimethoxyphenethylamine","propylthiophenethylamine","psuedophdrene","dimethylamylamine","mephdrone","clorphenylpiperazine","cpp","methysticum","phenethylaminey","neocitron","isobutylmethylxanthine","ephedrene","clortermine","bupropion","mythisticum","crackcocaine","methcathinone","iodoamphetamine","fluroanfetamin","dimethcathinone"],
- "moiety":["phenanthrene","indoleamine","thienodiazepine","inositol","benzopyrene","hydroxyindolenine","hydroxyl","monovinyl","phenylmethyl","benzine","hydroxyphenyl","butylene","ethoxymethyl","indolamine","phenylacetyl","ethylpheryl","isomorphinans","methylene","sugarcane","hydroxymethyl","methylnitrosoamino","piparazine","alkenebenzene","trimethylaminomethyl","dimethyl","isobutyryl","diethlylamine"],
+ "stimulants":["methmphetamine","adrenaline","chlorphentermine","caffeine","adderallr","levoamphetamine","methylxanthine","levmetamfetaminem","psuedoethadrine","methamphetamine","phenyephrine","mephentermine","bupripion","welbutrin","pseuodoephedrine","methampethamine","metamphetamine","dexeamphetamine","noradrenaline","phenephrine","dextroamphetamines","methylphendidate","amphetamine","neurepenephrine","dextromethamphetamine","ephredrine","methylphenidiate","suphedrine","fluoroamphetamine","psydoephedrine","amphetamines","levometafetamine","norepinephrine","cocaine","epherda","dextroamphetamine","epherine","alphamethylphenethylene","methyphedidate","methamphetaine","benzedrine","psuedophedrine","dexedrine","camfetamine","adrelenin","methamphetimine","pseduoephedrine","stimulants","methampehtamine","methicanthinone","dimethylmethcathinone","pipradrol","epidrine","cascarilla","erytroxylum","dehydromethylone","mdmethcathinone","methcathione","adrafinil","dimethoxyphenethylamine","atomoxatine","piperonylpiperazine","phenylmethylpiperazine","cyclohexylpiperidine","benzylpiperazine","trifluoromethylbenzylpiperazine","methylbenzylpiperazine","mchlorophenylpiperazine","fenfluramine","atomoxetine","trifluoromethylphenylpiperazine","denzylpiperazine","psudoeph","mephedrone","benzylpiprizine","methcathanone","phenylethylpiperazine","parahydroxyamphetamine","pseudoephedine","benzylpiperadine","trifluromethylphenylpiperazine","methicathinone","phenylmethylpip","aminorex","diethylpropion","desoxypipradrol","iodophenethylamine","benzylpiperazines","methylenedioxyamphetamines","methistica","ethylphenidate","phenylpropanolamine","trimethoxyphenethylamine","propylthiophenethylamine","psuedophdrene","dimethylamylamine","mephdrone","clorphenylpiperazine","cpp","methysticum","phenethylaminey","neocitron","isobutylmethylxanthine","ephedrene","clortermine","bupropion","mythisticum","crackcocaine","methcathinone","iodoamphetamine","fluroanfetamin","dimethcathinone","amfebutamone","pyrovalerone"],
+ "moiety":["phenanthrene","indoleamine","thienodiazepine","inositol","benzopyrene","hydroxyindolenine","hydroxyl","monovinyl","phenylmethyl","benzine","hydroxyphenyl","butylene","ethoxymethyl","indolamine","phenylacetyl","ethylpheryl","isomorphinans","methylene","sugarcane","hydroxymethyl","methylnitrosoamino","piparazine","alkenebenzene","trimethylaminomethyl","dimethyl","isobutyryl","diethlylamine","trimethylsilyl","pyrazolopyrimidine"],
  "functional class":["ethnogen","delusionogens","delieriants","illusionogens","dilierants","entheomation","associatives","neurotoxicants","delirients","psychenauts","disosotiatives","antiseptics","hepotoxin","pharmacophore","deliriants","grayanotoxins","illusogen",
 	"enthegens","antichoolenginics","emmenagogue","deliriogen","emapthigen","sypathomimetics","antidepressant","hulucinagen","hallucagen","antidysrhythmics","antidepressants","bronchodilators","anticholengenics","anxiolyctics","anticholergenics","hapatotoxic","hapatotoxin","anticholinerogens","etheogen","mystagogues","halucinagenics","psychotoxin","entheogensic","sympathomimetics","gabanergics","adaptogen","psychotogen","cannabimimetics","hallucinogens","secretagogues","phenethylamine","acetylcholinesterases","anticholinergenics","euthnogens","hallicigens","hormones","thymoanaesthetisers","beta-blockers","phytosteroids","entheobotanicals","gabaminergic","bronchodilator","entactogen","ethrogens"],
  "structural class":["tyrptamines","tryptamins","piperanzines","pheneyalmines","hydroxyindoles","phenelethylamines","phenolethylamines","terpinoids","imidazopyridine","triterpene","phenethlamines","lysergamides","methylzanthine","trytryptamines","phenylalkylamines","salivinorins","phenthylamine","benzodiazepines","methylxanthines","triterpenes","cathinones","thioesters","phenethylalkanes","thioalkaloids","sesqiterpene","penethylamines","tetrahydroisoquinolines","ethylalkane","phenyethyamine","phenethylamines","phenylethylamines","phenathylamine","phenylpropanoids","glucocorticoid","dynorphine","dialkyltryptamine","dihydrogencitrates","stryrlpyrones","anandamides","corticosteroids","dibenzodioxines","indoleethylamine","cyanonapthanols","propenylbenzenes","lysergins","phenylpropenes","eroglines","psuedophryamines","dialkyltryptamines","kavalacatones","acetaminophenas","polyhydroxynortropane","kavalactones"],
  "antibiotic/antifungal":["ciprofloxacin","clindamycin","methylchloroisothiazalinone","chlorhexidine","cephalosporin","isopteropodine","furoxone","methoxazole","caspofungin","myristicine","commiphora","isoniazid","permethrin","levamisolewithout"],
  "steroid":["dexamethasone","hydrocortisone","methylprednisolone"],
  "anitnausea":["cinchona","metoclopramide","moldicide","azithromycin","promethezine"],
- "chemical reagent":["triphenylphosphine","eosin","alkyltrimethylammonium","carbondioxide","benzene","dichloromethanesodium","phenoxyethanol","cyclohexanone","methane","hexanoate","mercaptoethyl","trimethylammonium","acetamide","aminomethane","monoacylglycerol","hydroquinone","methylcarbinolamide","dimethylbenzene","benzoxazolyl","diacylglycerol","methoxyethyl","dimethylformamide","neoditerpane"],
+ "chemical reagent":["triphenylphosphine","eosin","alkyltrimethylammonium","carbondioxide","benzene","dichloromethanesodium","phenoxyethanol","cyclohexanone","methane","hexanoate","mercaptoethyl","trimethylammonium","acetamide","aminomethane","monoacylglycerol","hydroquinone","methylcarbinolamide","dimethylbenzene","benzoxazolyl","diacylglycerol","methoxyethyl","dimethylformamide","neoditerpane","phenylhydrazine","dimethylcarbonate"],
  "hiv medications":["azt","ritonavir"],
  "element":["titanium","chlorine","bromide","cobalt","boron","uranium","fluoride","krypton","molybdenum","sodium","selenium"],
  "bulking agent":["peginterferon","simethicone","docusate"],
@@ -60,7 +60,6 @@
  "tricyclic antidepressants":["imipramine","amytriptaline","mirtazapine","doxepin"],
 }
 
-ethacetin
 curtin
 zacetachichi
 karalensis
@@ -86,10 +85,7 @@ samara
 morphinans
 bacopasides
 estoril
-taquimbalensis
-salvimultine
 thalidomide
-truxilloensis
 kt22
 strophara
 pcr
@@ -101,7 +97,6 @@ pca
 pcd
 pce
 lateriflora
-trimyristin
 tetrapterys
 arundunacea
 solanum
@@ -110,7 +105,6 @@ stevie
 atropatana
 myprocetin
 colchicine
-amfebutamone
 pregnenolone
 senecionine
 vecuronium
@@ -134,11 +128,7 @@ halcion
 diphenoxylate
 hylocereus
 reserpate
-myrtillocactus
-pyrazolopyrimidine
 anadenthera
-ichthyoallyeinotoxism
-trimethylsilyl
 terbinafine
 tegretol
 chalcostrobamine
@@ -166,7 +156,6 @@ epilobium
 myrtifolia
 arylcyclohexylamine
 methylecgonidine
-methysergide
 metabisulphite
 benzonatate
 phenacetin
@@ -182,14 +171,12 @@ oxytocin
 hypoxanthine
 moclobimide
 shoom
-pyrovalerone
 glutethimide
 tetracaine
 benzopyran
 palytoxin
 phenylethylhydrazine
 piperidyl
-pseudotutine
 tarichatoxin
 phenoperidine
 k2
@@ -223,7 +210,6 @@ phenylpropylnalamine
 dextromoramide
 tetrahydrofuran
 theban
-phenylhydrazine
 clopixol
 succinylcholine
 proproxephene
@@ -287,4 +273,3 @@ trichlorethylene
 phenylcyclohexanol
 norgestimate
 domperidone
-dimethylcarbonate
