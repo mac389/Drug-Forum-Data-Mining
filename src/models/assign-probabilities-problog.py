@@ -10,13 +10,13 @@ db = json.load(open('./lycaeum-forum-processed-has-drug-names.json','r'))
 
 symptoms = open('../../putative-standardized-symptoms.txt','r').read().splitlines()
 
-list_of_drugs = list(set(list(itertools.chain.from_iterable([entry['drugs'] for entry in db.values()]))))
 
+drugs_mentioned_in_posts = list(set(list(itertools.chain.from_iterable([entry['drugs'] for entry in db.values()]))))
 drugs_symptoms = {drug:defaultdict(int) for drug in list_of_drugs}
 #Build index of all symptoms
 drug_index = defaultdict(list)
 
-for drug in tqdm(list_of_drugs,"Drug"):
+for drug in tqdm(drugs_mentioned_in_posts,"Drug"):
   for title,entry in db.items():
     if drug in entry['drugs']:
       drug_index[drug] += [title]
