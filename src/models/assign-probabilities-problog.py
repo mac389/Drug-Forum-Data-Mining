@@ -10,7 +10,6 @@ db = json.load(open('./lycaeum-forum-processed-has-drug-names.json','r'))
 
 symptoms = open('../../putative-standardized-symptoms.txt','r').read().splitlines()
 
-
 drugs_mentioned_in_posts = list(set(list(itertools.chain.from_iterable([entry['drugs'] for entry in db.values()]))))
 drugs_symptoms = {drug:defaultdict(int) for drug in list_of_drugs}
 #Build index of all symptoms
