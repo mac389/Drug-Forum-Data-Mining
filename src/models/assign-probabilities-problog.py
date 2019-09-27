@@ -1,4 +1,4 @@
-import json, itertools 
+import json, itertools, os  
 
 import pandas as pd
 
@@ -6,9 +6,12 @@ from awesome_print import ap
 from tqdm import tqdm
 from collections import defaultdict
 
-db = json.load(open('./lycaeum-forum-processed-has-drug-names.json','r'))
 
-symptoms = open('../../putative-standardized-symptoms.txt','r').read().splitlines()
+DATA_PATH = os.path.join('..','..','data')
+spelling_ontology = json.load(open(os.path.join(DATA_PATH,'processed','spelling-ontology.json'),'r'))
+symptoms = open(os.path.join(DATA_PATH,'processed','putative-standardized-symptoms.txt'),'r').read().splitlines()
+db = json.load(open(os.path.join(DATA_PATH,'/lycaeum-forum-processed-has-drug-names.json'),'r'))
+
 
 drugs_mentioned_in_posts = list(set(list(itertools.chain.from_iterable([entry['drugs'] for entry in db.values()]))))
 drugs_symptoms = {drug:defaultdict(int) for drug in list_of_drugs}

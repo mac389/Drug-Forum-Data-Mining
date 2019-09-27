@@ -1,5 +1,20 @@
 {
-	"alcohol": ["zinfandel", "moonshine", "tequila", "chardonnay", "pernod", "gerwurtzraminer", "drambouie", "drambuie", "quinine", "jagerbomb", "wormwood", "cointreau", "curacao", "chartreuse"],
+	"alcohol": {
+		"zinfandel": ["zinfandel"],
+		"moonshine": ["moonshine"],
+		"tequila": ["tequila"],
+		"chardonnay": ["chardonnay"],
+		"pernod": ["pernod"],
+		"gerwurtzraminer": ["gerwurtzraminer"],
+		"drambouie": ["drambouie"],
+		"drambuie": ["drambuie"],
+		"quinine": ["quinine"],
+		"jagerbomb": ["jagerbomb"],
+		"wormwood": ["wormwood"],
+		"cointreau": ["cointreau"],
+		"curacao": ["curacao"],
+		"chartreuse": ["chartreuse"]
+	},
 	"acetaminophen-containing": {
 		"acetaminophen": ["aceaminophen", "acetometaphen", "acetaminophen", "acitomenophen", "acetamidophen", "acetominaphine", "actetaminophen", "aceteminiphen", "acetaminofen", "acetominophan", "tylanol", "acetaminophenas"],
 		"percocet": ["percocet"],
@@ -519,7 +534,7 @@
 		"triphenylphosphine": ["triphenylphosphine"],
 		"eosin": ["eosin"],
 		"alkyltrimethylammonium": ["alkyltrimethylammonium"],
-		"carbondioxide": ["carbondioxide"],
+		"carbon dioxide": ["carbondioxide"],
 		"benzene": ["benzene"],
 		"dichloromethanesodium": ["dichloromethanesodium"],
 		"phenoxyethanol": ["phenoxyethanol"],
@@ -718,7 +733,7 @@
 		"silymarlin": ["silymarlin"],
 		"ragwort": ["ragwort"]
 	},
-	"nonopioid analgesic": ["capsaicin"],
+	"nonopioid analgesic": {"capsaicin":["capsaicin"]},
 	"chemotherapeutic": {
 		"doxorubicin": ["doxorubicin"],
 		"vinblastine": ["vinblastine"],
@@ -726,9 +741,9 @@
 		"periwinkle": ["periwinkle"],
 		"yew": ["yew"],
 		"atropatana": ["atropatana"],
-		"colchicine": "colchicine"
+		"colchicine": ["colchicine"]
 	},
-	"antithyroid": ["methimazole"],
+	"antithyroid": {"methimazole":["methimazole"]},
 	"serotonergic": {
 		"sumatriptan": ["sumatriptan"],
 		"methylergonovine": ["methylergonovine"],
