@@ -11,6 +11,9 @@ df = pd.DataFrame.from_dict(json.load(open(os.path.join('..','..','data','interi
 		,orient='index')
 
 df = np.log(df+1)
-g = sns.clustermap(df,annot=False, cmap = "bone_r")
+
+#xsns.heatmap(df.corr(method='spearman'),annot=False,cmap="bone_r")
+g = sns.clustermap(df.transpose().corr(method='spearman').fillna(0),annot=False, cmap = "bone_r")
 plt.tight_layout()
-g.savefig(os.path.join('..','..','reports','figures','drug-symptom-clustermap.png'))
+#plt.show()
+g.savefig(os.path.join('..','..','reports','figures','drug-clustermap.png'))

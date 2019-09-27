@@ -22,7 +22,7 @@
           person(X),
           substance_ingested(X,s1).
           
-This goal expresses the knowledge that individual _X_ has a likelihood of _p_ of manifesting effect _e_ if we know that he ingested substance _s1_. For this goal we calculate _p_ as the number of times that effect _e_ is mentioned with substance _s_ relative to the number of time that effect is mentioned with any substance. This is mathematically equivalent to the conditional probability of manifesting effect _e_ given ingestion of substance _s1_. 
+This goal expresses the knowledge that individual _X_ has a likelihood of _p_ of manifesting effect _e_ if we know that he ingested substance _s1_. For this goal we calculate the conditional probability of manifesting effect _e_ given ingestion of substance _s1_. 
    
 
 The following Problog goal demonstrates the Markov logic statements associated with describing the pattern of coingestion.
@@ -31,7 +31,7 @@ The following Problog goal demonstrates the Markov logic statements associated w
          person(X),
          substance_ingested(X,s2)
 
-This goal expresses the knowledge that individual _X_ has a likelihood of _p_ of ingesting  substance _s1_ if we know that he ingested substance _s2_. For this goal we calculate _p_ as the number of times that _s1_ is mentioned in the same document as _s2_ relative to the number of times _s1_ is mentioned. This is mathematically equivalent to the conditional probability of ingesting _s1_ given ingestion of _s2_.  
+This goal expresses the knowledge that individual _X_ has a likelihood of _p_ of ingesting  substance _s1_ if we know that he ingested substance _s2_. For this goal we calculate the conditional probability of ingesting _s1_ given ingestion of _s2_.  
 
 ### Results 
 

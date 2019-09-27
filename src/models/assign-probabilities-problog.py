@@ -20,7 +20,7 @@ drug_index = defaultdict(list)
 
 for drug in tqdm(spelling_ontology.keys(),"building index"):
   for title,entry in db.items():
-    if drug in entry['text']:
+    if drug in entry['text'] or drug in entry['drugs']:
       drug_index[spelling_ontology[drug]] += [title]
 
 for drug in tqdm(spelling_ontology.keys(),"Drugs"):
