@@ -16,7 +16,7 @@
 		"chartreuse": ["chartreuse"]
 	},
 	"acetaminophen-containing": {
-		"acetaminophen": ["aceaminophen", "acetometaphen", "acetaminophen", "acitomenophen", "acetamidophen", "acetominaphine", "actetaminophen", "aceteminiphen", "acetaminofen", "acetominophan", "tylanol", "acetaminophenas"],
+		"acetaminophen": ["aceaminophen", "acetometaphen", "acetaminophen", "acitomenophen", "acetamidophen", "acetominaphine", "actetaminophen", "aceteminiphen", "acetaminofen", "acetominophan", "tylanol", "acetaminophenas","acetominophen"],
 		"percocet": ["percocet"],
 		"coricidin": ["coriceden", "corociden", "coriciden", "coricidens", "coricidrin", "coricidin", "coricidrins", "cloricidine"],
 		"neocitron": ["neocitron"],
@@ -297,7 +297,7 @@
 			"methamphetaine", "methampehtamine"
 		],
 		"bupropion": ["welbutrin", "bupripion", "bupropion"],
-		"epinephrine": ["adrenaline", "adrelenin"],
+		"epinephrine": ["adrenaline", "adrelenin","adrenalin"],
 		"norepinephrine": ["neurepenephrine", "noradrenaline", "norepinephrine"],
 		"amphetamine": ["adderallr", "levoamphetamine", "levmetamfetaminem", "dextroamphetamines", "amphetamine", "levometafetamine", "amphetamines", "dextromethamphetamine", "dexeamphetamine", "dextroamphetamine", "dexedrine", "benzedrine"],
 		"caffeine": ["caffeine", "methylxanthine", "erytroxylum"],
@@ -813,6 +813,7 @@
 		"benzodiazepine": {
 			"chlordiazepoxide": ["chlorodiazepoxide", "librium", "chlodiazepoxide", "chlordiazepoxide"],
 			"alpralozam": ["alprazolam", "alprozolam"],
+			"clorazepate":["clorazepate"],
 			"traizolam": ["halcion", "triazolam"],
 			"temazepam": ["temapzepam", "temazapam", "temazepam"],
 			"clonazapem": ["clonazapem"],
