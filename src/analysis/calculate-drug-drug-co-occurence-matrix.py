@@ -7,24 +7,27 @@ import pandas as pd
 
 DATA_PATH = os.path.join('..','..','data')
 
-db = json.load(open(os.path.join(DATA_PATH,'lycaeum-forum-processed-has-drug-names.json'),'r'))
-
+db = json.load(open(os.path.join(DATA_PATH,'processed','lycaeum-forum-processed-has-drug-names.json'),'r'))
 spelling_ontology = json.load(open(os.path.join(DATA_PATH,'processed','spelling-ontology.json'),'r'))
 list_of_drugs = spelling_ontology.keys()
 
+#Build index of posts that mention a drug
+#more efficient than brute forcing searching 2.5 million combinations
+
+drug_index = defaultdict(list)
+
+for drug in tqdm(spelling_ontology.keys(),"building index"):
+  for title,entry in db.items():
+    if drug in entry['text'] or drug in entry['drugs']:
+      drug_index[spelling_ontology[drug]] += [title]
 
 df = pd.DataFrame(0,index=spelling_ontology.values(),columns=spelling_ontology.values())
 
-for drug_one,drug_two in tqdm(itertools.combinations(spelling_ontology.keys(),2),"building index"):
-	print drug_two,drug_one,'llll'
-	for title,entry in db.items():
-		if (drug_one in entry['text'] or drug_one in entry['drugs']) and (drug_two in entry['text'] or drug_two in entry['drugs']):
-			df.loc[drug_one,drug_two] = 1 
+for drug_one,drug_two in tqdm(list(itertools.combinations(spelling_ontology.keys(),2))
+		,"counting co-occurrences"):
+	intersection = set(drug_index[drug_one]) & set(drug_index[drug_two])
+	df.loc[spelling_ontology[drug_one],spelling_ontology[drug_two]] = len(intersection) 
+	df.loc[spelling_ontology[drug_one],spelling_ontology[drug_two]] = len(intersection) 
+	#itertools.combinations doesn't always stay in upper or lower triangle
 
-'''
-df = pd.DataFrame.from_dict(drug_index,orient='index')
-df = df.astype(bool).astype(int)
-'''
-
-df.to_csv(os.path.join(DATA_PATH,'interim','drug-drug-frequency.csv'))
-print df 
+df.to_csv(os.path.join(DATA_PATH,'processed','drug-drug-frequency.csv'))
