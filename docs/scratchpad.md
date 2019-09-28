@@ -1,0 +1,1 @@
+1. Obtain list of all possible drugs, symptoms from Lycaeum text. 

@@ -22,7 +22,7 @@
           person(X),
           substance_ingested(X,s1).
           
-This goal expresses the knowledge that individual _X_ has a likelihood of _p_ of manifesting effect _e_ if we know that he ingested substance _s1_. For this goal we calculate the conditional probability of manifesting effect _e_ given ingestion of substance _s1_. 
+This goal expresses the knowledge that individual _X_ has a likelihood of _p_ of manifesting effect _e_ if we know that he ingested substance _s1_. For this goal we calculate the conditional probability of manifesting effect _e_ given ingestion of substance _s1_. We only created an instantion of Figure X for substance-effect pairs whose conditional probability was statistically significantly greater than chance, after adjusting the false disccovery rate using the Benjamini-Hochberg correction. We calculated the likelihood that a conditional probability associated with a substance-effect pair was significantly greater than change by 
    
 
 The following Problog goal demonstrates the Markov logic statements associated with describing the pattern of coingestion.

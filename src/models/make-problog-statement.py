@@ -34,10 +34,19 @@ coingestants = """%.04f::also_ingested(X,%s) :-
                     person(X),
                     substance_ingested(X,%s)"""
 
-effects = """%.04f::has_effect(X,%s) :-
-				person(X),
-				substance_ingested(X,%s)"""
 
+'''
+Create conditional probability DataFrame, formatted as p(effect | drug)
+
+'''
+
+
+conditional_prob_df = df.copy(deep=True)
+conditional_prob_df /= overall_sum
+conditional_prob_df /= baseline_probabilities
+
+print baseline_probabilities[baseline_probabilities==0]
+'''
 with open(os.path.join('..','..','data','processed','for-problog.txt'),'w') as fout:
 	for symptom in df.columns:
 		for drug in df.index:
@@ -47,29 +56,4 @@ with open(os.path.join('..','..','data','processed','for-problog.txt'),'w') as f
 			print>>fout,effects%(conditional_probability,symptom,drug)
 
 	print>>fout,'%%%%%%%%%%%%%%%%%%'
-
-	for drug_one in df.index:
-		for drug_two in df.index:
-			#Conditional probabilities are not symmetric!
-			p_one_and_two
-'''
-for drug_one,drug_two in itertools.combinations(df.index,2):
-	print drug_one,drug_two
-
-  scaling_factor = df[df['d1']==drug]['freq'].sum()
-  df.loc[df.d1==drug,'scaling factor'] = scaling_factor
-
-
-df['probability'] = df['freq']/df['scaling factor']
-df[df.probability==0] = baseline_chance
-
-
-
-with open('./for-problog.txt','w') as fout:
-  for d1 in df['d1'].unique():
-    for d2 in df.loc[df.d1==d1,'d2']: 
-      p = df.loc[(df.d1 == d1) & (df.d2 == d2)]['probability'].values[0]
-      print>>fout,coingestants%(p,d2,d1)
-      print>>fout,'\n'
-
 '''
