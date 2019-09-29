@@ -9,27 +9,31 @@ DATA_PATH = os.path.join('..','..','data')
 
 db = json.load(open(os.path.join(DATA_PATH,'processed','lycaeum-forum-processed-has-drug-names.json'),'r'))
 spelling_ontology = json.load(open(os.path.join(DATA_PATH,'processed','spelling-ontology.json'),'r'))
-list_of_drugs = spelling_ontology.keys()
+
+not_standardized_drug_names = spelling_ontology.keys()
+standardized_drug_names = list(set(spelling_ontology.values()))
 
 #Build index of posts that mention a drug
 #more efficient than brute forcing searching 2.5 million combinations
 
 drug_index = defaultdict(list)
 
-for drug in tqdm(spelling_ontology.keys(),"building index"):
-  for title,entry in db.items():
-    if drug in entry['text'] or drug in entry['drugs']:
-      drug_index[spelling_ontology[drug]] += [title]
+df = pd.DataFrame(0,index=standardized_drug_names,columns=standardized_drug_names)
 
+for not_standardized_drug_name in tqdm(not_standardized_drug_names,"building index"):
+	for title,entry in db.items():
+		if not_standardized_drug_name in entry['text'] or not_standardized_drug_name in entry['drugs']:
+			drug_index[spelling_ontology[not_standardized_drug_name]] += [title]
 
-idxs = list(set(spelling_ontology.values()))
-df = pd.DataFrame(0,index=idxs,columns=idxs)
+for standardized_drug_name in tqdm(standardized_drug_names,'populating diagonal'):
+	df.loc[standardized_drug_name,standardized_drug_name] = len(drug_index[standardized_drug_name])
 
-for drug_one,drug_two in tqdm(list(itertools.combinations(spelling_ontology.keys(),2))
+for drug_one,drug_two in tqdm(list(itertools.combinations(standardized_drug_names,2))
 		,"counting co-occurrences"):
 	intersection = set(drug_index[drug_one]) & set(drug_index[drug_two])
-	df.loc[spelling_ontology[drug_one],spelling_ontology[drug_two]] = len(intersection) 
-	df.loc[spelling_ontology[drug_two],spelling_ontology[drug_one]] = len(intersection) 
+	if len(intersection) > 0:
+		df.loc[drug_one,drug_two] = len(intersection) 
+		df.loc[drug_two,drug_one] = len(intersection) 
 	#itertools.combinations doesn't always stay in upper or lower triangle
 
 df.to_csv(os.path.join(DATA_PATH,'processed','drug-drug-frequency.csv'))
