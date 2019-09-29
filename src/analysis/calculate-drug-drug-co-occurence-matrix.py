@@ -21,13 +21,15 @@ for drug in tqdm(spelling_ontology.keys(),"building index"):
     if drug in entry['text'] or drug in entry['drugs']:
       drug_index[spelling_ontology[drug]] += [title]
 
-df = pd.DataFrame(0,index=spelling_ontology.values(),columns=spelling_ontology.values())
+
+idxs = list(set(spelling_ontology.values()))
+df = pd.DataFrame(0,index=idxs,columns=idxs)
 
 for drug_one,drug_two in tqdm(list(itertools.combinations(spelling_ontology.keys(),2))
 		,"counting co-occurrences"):
 	intersection = set(drug_index[drug_one]) & set(drug_index[drug_two])
 	df.loc[spelling_ontology[drug_one],spelling_ontology[drug_two]] = len(intersection) 
-	df.loc[spelling_ontology[drug_one],spelling_ontology[drug_two]] = len(intersection) 
+	df.loc[spelling_ontology[drug_two],spelling_ontology[drug_one]] = len(intersection) 
 	#itertools.combinations doesn't always stay in upper or lower triangle
 
 df.to_csv(os.path.join(DATA_PATH,'processed','drug-drug-frequency.csv'))
