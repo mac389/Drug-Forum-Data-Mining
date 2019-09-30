@@ -27,7 +27,7 @@ symptoms = {value:key for key in ontology_lookup_table for value in ontology_loo
 
 #reverse symptom directory to create nonstandard -> standard lookup table 
 
-standardized_symptom_names = symptoms.values()
+standardized_symptom_names = list(set(symptoms.values()))
 df = pd.DataFrame(0,index=standardized_symptom_names,columns=standardized_symptom_names)
 
 for nonstandard,standard in tqdm(symptoms.items(),"building index"):
