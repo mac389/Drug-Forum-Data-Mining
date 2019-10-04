@@ -6,7 +6,6 @@ import numpy as np
 from statsmodels.stats.multitest import fdrcorrection
 
 df = pd.read_csv(os.path.join('..','..','data','processed','drug-symptom-frequency.csv'),index_col=0)
-print df 
 
 '''
 #Take overall change of occurrence as average 
@@ -22,7 +21,7 @@ p(drug) => sum over symptoms [not perfect, overcounts]
 '''
 
 baseline_probabilities = df.sum(axis=1)/df.sum(axis=1).sum()
-
+print baseline_probabilities[baseline_probabilities.isna()]
 overall_sum = df.sum().sum()
 
 
@@ -51,7 +50,6 @@ data = [("%s|%s"%(row,col),conditional_prob_df.loc[row,col])
 								  for col in conditional_prob_df.columns
 								  if row != col]
 
-
 long_cdf = pd.DataFrame(data,columns=['name','conditional_probability'])
 long_cdf = long_cdf[(~long_cdf['conditional_probability'].isna()) & (long_cdf['conditional_probability']!=0)]
 long_cdf['percentile'] = long_cdf['conditional_probability'].rank(pct=True)
@@ -59,5 +57,4 @@ long_cdf['percentile'] = long_cdf['conditional_probability'].rank(pct=True)
 reject, adjusted_p_value = fdrcorrection(long_cdf['conditional_probability'], alpha=0.05)
 long_cdf['adjusted_p_value'] = adjusted_p_value
 long_cdf['should accept'] = reject
-
 long_cdf.to_csv(os.path.join('..','..','data','interim','significant_drug_symptom_combinations_after_bh.csv'))
