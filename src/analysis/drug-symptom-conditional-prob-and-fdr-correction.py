@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np 
 
 from statsmodels.stats.multitest import fdrcorrection
-
+from awesome_print import ap 
 df = pd.read_csv(os.path.join('..','..','data','processed','drug-symptom-frequency.csv'),index_col=0)
 
 '''
@@ -20,21 +20,23 @@ p(drug) => sum over symptoms [not perfect, overcounts]
 
 '''
 
-baseline_probabilities = df.sum(axis=1)/df.sum(axis=1).sum()
-print baseline_probabilities[baseline_probabilities.isna()]
+baseline_probabilities = df.sum(axis=1)/(df.sum(axis=1).sum())
 overall_sum = df.sum().sum()
 
+
+baseline_probabilities[baseline_probabilities==0]=1
 
 '''
 Create conditional probability DataFrame, formatted as p(effect | drug)
 
 '''
 
-
 conditional_prob_df = df.copy(deep=True)
 conditional_prob_df /= overall_sum
-conditional_prob_df /= baseline_probabilities
+conditional_prob_df = conditional_prob_df.divide(baseline_probabilities, axis=0)
 
+#ap( baseline_probabilities.tolist())
+#What to do with baseline probability of zero? (Here setting it to one, just to push through)
 '''
 Only write Problog goals for statistically significant co-occurrences, adjusted for FDR
 
