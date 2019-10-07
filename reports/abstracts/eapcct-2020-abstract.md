@@ -8,6 +8,9 @@ Toxicology 2.0 – focus on Artificial Intelligence in medicine and toxicology, 
 
 **Conclusion:** We present here *psychoactive* a user-friendly interface to a curated database of recreational drug usage and toxicity from online forums. The database contains novel and previously described substances and effects, lending validity to this approach to study known usage and toxicty and track emerging patterns. *Psychoactive* combines statistical and symbolic artificial intelligence to summarize patterns of use and is open source. This combination allows it to cross-reference effects and substances described online with formal peer-reviewed studies combining the strengths of both approaches to improving our understanding of recreation drug use and toxicity.
 
+**Define ontologies**
+**Doesn't quite pass so what -- biologically plausible mechanism**
+
 **References**
 
 [1] Chary, M, David Y, and Manini AF. Candyflipping and Other combinations: identifying Drug–Drug combinations from an Online Forum. Frontiers in psychiatry 2018;9:135.
