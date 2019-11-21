@@ -9,9 +9,7 @@ df = pd.read_csv(os.path.join(DATA_PATH,'processed','significant_drug_drug_combi
 
 for_goals = df[df['should accept'] == True]
 
-coingestants = """%.04f::also_ingested(X,%s) :-
-				person(X),
-				substance_ingested(X,%s)."""
+coingestants = """%.04f::ingested(1,%s,%s)."""
 
 with open(os.path.join('..','..','data','processed','for-problog.txt'),'w') as fout:
 	for _,row in for_goals.iterrows():
