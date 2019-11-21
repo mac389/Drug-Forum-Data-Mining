@@ -9,13 +9,13 @@ from pprint import pprint
 
 DATA_PATH = os.path.join('..','..','data')
 
-kb = open(os.path.join(DATA_PATH,'processed','for-problog.txt'),'r').read()
+kb = open(os.path.join(DATA_PATH,'processed','symptom-symptom--kb.txt'),'r').read()
 
 p = PrologString(kb+ '\n'+ """\n	
 :- use_module(library(lists)).
 
 person(1).
-query(ingested(1,cobalt,_)).
+query(comanifests(1,immunologic,_)).
 """)
 
 res = get_evaluatable().create_from(p).evaluate()
