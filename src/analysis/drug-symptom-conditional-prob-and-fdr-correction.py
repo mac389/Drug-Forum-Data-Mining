@@ -85,9 +85,4 @@ dist = dist.to_numpy().ravel()
 #plt.show()
 
 long_cdf['p_value'] = 0.01*long_cdf['conditional_probability'].apply(lambda x: percentileofscore(dist,x))
-
-print "performing FDR correction"
-reject, adjusted_p_value = fdrcorrection(long_cdf['p_value'], method='negcorr', alpha=0.05)
-long_cdf['adjusted_p_value'] = adjusted_p_value
-long_cdf['should reject'] = reject
 long_cdf.to_csv(os.path.join('..','..','data','interim','significant_effect_drug_combinations_after_bh.csv'))

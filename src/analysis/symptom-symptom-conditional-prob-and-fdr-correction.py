@@ -1,4 +1,4 @@
-import json, os, itertools 
+import json, os, itertools, tabulate
 
 import pandas as pd
 import numpy as np 
@@ -8,6 +8,7 @@ from statsmodels.stats.multitest import fdrcorrection
 df = pd.read_csv(os.path.join('..','..','data','processed','symptom-symptom-frequency.csv'),index_col=0)
 print df 
 
+print(tabulate.tabulate(df.columns,headers=['Symptoms'],tablefmt="github")) 
 '''
 #Take overall change of occurrence as average 
 #Have to use the accurate numbers, go with this for time now
@@ -56,8 +57,12 @@ long_cdf = pd.DataFrame(data,columns=['name','conditional_probability'])
 long_cdf = long_cdf[(~long_cdf['conditional_probability'].isna()) & (long_cdf['conditional_probability']!=0)]
 long_cdf['percentile'] = long_cdf['conditional_probability'].rank(pct=True)
 
-reject, adjusted_p_value = fdrcorrection(long_cdf['conditional_probability'], alpha=0.05)
+long_cdf['p_value'] = long_cdf['conditional_probability'].apply(lambda x: long_cdf.loc[long_cdf['conditional_probability']>=x]['conditional_probability'].sum())
+#.apply(lambda x: percentileofscore(dist,x))
+long_cdf['p_value'] /= float(len(long_cdf['p_value']))
+
+reject, adjusted_p_value = fdrcorrection(long_cdf['p_value'], method='negcorr', alpha=0.05)
 long_cdf['adjusted_p_value'] = adjusted_p_value
-long_cdf['should accept'] = reject
+long_cdf['should reject'] = reject
 
 long_cdf.to_csv(os.path.join('..','..','data','interim','significant_symptom_symptom_combinations_after_bh.csv'))

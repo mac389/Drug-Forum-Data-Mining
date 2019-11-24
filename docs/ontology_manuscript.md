@@ -16,29 +16,26 @@
 
 #### Creation of Markov Logic Statements.
 
-   A Markov Logic statement has the general form, _p f(x,y,...)_, where _p_ is a fraction between _0_ and _1_ and _f(x,y,..)_ is a statement about _x,y,..._ that is decidable. The Markov Logic statment _0.4 hasToxidrome(cholinergic, X)_ represents that an individual X has a cholinergic toxidrome in 40% of possible worlds. We derived the logical statements from the ontology and probabilities from the frequency with which the terms used in the ontology appeared in theh Lycaeum corpus. In the preceding example, _0.4_ would represent the fraction of times cholinergic was mentioned as a toxidrome in the Lycaeum corpus. 
+   A Markov Logic statement has the general form, $p\; f\left(x,y,\ldots\right)$, where $p \in \left(0,1\right)$  represents the chance that the statement is true and $f\left(x,y,\ldots\right)$ is a decidable statement about entities $x,y,\ldots$. The Markov Logic statment $0.4 \; \textrm{hasToxidrome}\left(X,\textrm{cholinergic}\right)$ represents that an individual X has a cholinergic toxidrome in 40% of possible worlds. We derived the logical statements from the ontology and probabilities from the frequency with which the terms used in the ontology appeared in theh Lycaeum corpus. In the preceding example, _0.4_ would represent the fraction of times the cholinergic toxidrome was mentioned in the Lycaeum corpus. 
 
-Here we describe representation substance-effect, substance-substance, and effect-effect pairs in our Lycaeum corpus. Code block X states, in Problog, the Markov logic statement describing substance-effect pairs. 
-
-```prolog
- p substance_effect(X,s1,e).
-```
-
-This goal states that if individual $X$ ingested substance $s_1$, then $X$ has a likelihood of $p$ of experiencing effect $e$.  We calculated $p$ as the conditional probability, $p\left(e|s_1\right)$, by counting all posts that mentioned effect $e$ and substance $s_1$ and dividing that quantity by the count of all posts mentioning substance $e$. We instantiated the goal in Figure X only for substance-effect pairs whose corresponding conditional probability was statistically significantly greater than chance, after adjusting the false disccovery rate to $0.05$ using the Benjamini-Hochberg correction. We calculated the inverse goal `p effect_substance(X,e,s1)`and probability, $p\left(s_1\right|e)$ analogouosly.  
-
-
-The Problog goal. in Figure X identifies substance-substance comentions. 
+Code block X states, in a variant of Prolog called Problog, the three Markov lgoic statements that  represent the probabilistic relationships between all significantly co-occurring substance-effect, substance-substance, and effect-effect pairs in our Lycaeum corpus. 
 
 ```prolog
-p ingested(X,s2,s1).
+ p1 substance_effect(X,s1,e).
+ p2 effect_substance(X,e,s1).
+ p2 substance_substance(X,s2,s1).
+ p3 effect_effect(X,s2,s1).
 ```
 
-This goal states that if  individual _$X$_ ingested substance $s_1$, then $X$ has a likelihood $p$ of having also ingested substance $s_2$. We calculated $p\left(s_2|s_1\right)$ by counting all posts that mentioned both substances and then dividing that quantity by the count of all posts that mentioned $s_1$. The order of arguments is important. In general, for any different occurrences $x$ or $y$,  $p\left(x|y\right) \neq p\left(y | x\right)$.  
+The first goal states that if individual $X$ ingested substance $s_1$, then $X$ has a likelihood $p_1$ of experiencing effect $e$.  We calculated $p_1$ as the conditional probability, $p\left(e|s_1\right)$, by counting all posts that mentioned effect $e$ and substance $s_1$ and dividing that quantity by the count of all posts mentioning substance $e$. We instantiated this goal only for substance-effect pairs whose conditional probability was statistically significantly greater than chance, after using the Benjamini-Hochberg correction to adjust the false disccovery rate to $0.05$ . We calculated the second goal, which is the inverse of the first, and probability, $p\left(s_1\right|e)$ analogouosly.  The order of arguments is important. In general, for any different occurrences $x$ or $y$,  $p\left(x|y\right) \neq p\left(y | x\right)$.   
 
-### Results 
+The third goal states that if  individual _$X$_ ingested substance $s_1$, then $X$ has a likelihood $p$ of having also ingested substance $s_2$. We calculated $p\left(s_2|s_1\right)$ by counting all posts that mentioned both substances and then dividing that quantity by the count of all posts that mentioned $s_1$. The fourth goal is the third goal but stated for effects. 
+
+### Results. 
 
 #### Ontology.  
- We identified X unique effects and Y unique substances. 
+ We identified $33$ unique effects (Supplemental Table 1) and $637$ unique substances 
+(Supplemental Table 2).  This yielded $1056=33\cdot\left(33-1\right)$ effect-effect pairs, $405,132 = 637\cdot\left(637-1\right)$  substance-substance-pairs, and $21,021 = 637 \cdot 33$ substance-effect paris. 
 
 #### Markov Logic Statements.
 
@@ -48,3 +45,27 @@ This goal states that if  individual _$X$_ ingested substance $s_1$, then $X$ ha
 
 
 
+---
+
+# Supplementary Material 
+
+ 
+
+| emotion                   | property of  toxin  |      |      |      |
+| ------------------------- | ------------------- | ---- | ---- | ---- |
+| global  nervous system    | somatic sensation   |      |      |      |
+| immunologic               | neurologic disorder |      |      |      |
+| motor                     | perception          |      |      |      |
+| misclassified             | endocrine           |      |      |      |
+| gastrointestinal          | sense of self       |      |      |      |
+| song  references          | use of substance    |      |      |      |
+| cardiovascular            | sexual activity     |      |      |      |
+| genitourinary             | uninterpretable     |      |      |      |
+| oncologic                 | respiratory         |      |      |      |
+| written  media references | activity references |      |      |      |
+| chemical  process         | renal               |      |      |      |
+| metabolic                 | esp                 |      |      |      |
+| hematologic               | infectious          |      |      |      |
+| musculoskeletal           | cognitive ability   |      |      |      |
+| place  references         | behavior            |      |      |      |
+|                           | integumentary       |      |      |      |
