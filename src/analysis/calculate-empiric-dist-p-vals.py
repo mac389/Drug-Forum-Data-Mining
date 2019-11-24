@@ -1,6 +1,11 @@
-import os 
+import os, itertools 
 
 import pandas as pd 
+import numpy as np 
+
+from tqdm import tqdm 
+from sklearn.utils import resample
+
 
 DATA_PATH = os.path.join('..','..','data','processed')
 
@@ -12,7 +17,6 @@ filenames = ['symptom-symptom-frequency',
 
 def from_occurences_to_conditional_probs(df):
 	baseline_probabilities = df.sum(axis=1)/(df.sum(axis=1).sum())
-	#print baseline_probabilities
 	overall_sum = df.sum().sum()
 
 	conditional_prob_df = df.copy(deep=True)
@@ -22,7 +26,7 @@ def from_occurences_to_conditional_probs(df):
 	return conditional_prob_df
 
 ds_count = 0
-for filename in filenames: 
+for filename in tqdm(filenames,'Each File'): 
 	if filename == 'symptom-drug-frequency':
 		ds_count += 1
 		df = pd.read_csv(os.path.join(DATA_PATH,'drug-symptom-frequency.csv'),index_col=0)
@@ -38,7 +42,7 @@ for filename in filenames:
 
 
 	p_values = pd.DataFrame(data,columns=['name','conditional_probability'])
-	 = p_values[(~p_values['conditional_probability'].isna()) & (p_values['conditisonal_probability']!=0)]
+	p_values = p_values[(~p_values['conditional_probability'].isna()) & (p_values['conditional_probability']!=0)]
 	p_values['percentile'] = p_values['conditional_probability'].rank(pct=True)
 
 	n = 1000 #number of times to resample
@@ -48,11 +52,10 @@ for filename in filenames:
 
 	dist = pd.DataFrame(list(itertools.chain.from_iterable(x)))
 	dist.dropna(inplace=True)
-	sns.set(color_codes=True)
 	dist = dist.to_numpy().ravel()
 
 	p_values['p_value'] = p_values['conditional_probability'].apply(lambda x: p_values.loc[p_values['conditional_probability']>=x]['conditional_probability'].sum())
 	p_values['p_value'] /= float(len(p_values['p_value']))
 	#pval = sum(s >= s0)/N
 
-	p_values.to_csv(os.path.join(DATA_PATH,'%-pvalues.csv'%(filename)))
+	p_values.to_csv(os.path.join(DATA_PATH,'%s-pvalues.csv'%(filename)))

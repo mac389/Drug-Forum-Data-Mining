@@ -6,17 +6,18 @@ import matplotlib.pyplot as plt
 
 from statsmodels.stats.multitest import fdrcorrection
 
-DATA_PATH = os.path.join('..','..','data','interim')
+DATA_PATH = os.path.join('..','..','data','processed')
 
-filenames = ['significant_symptom_symptom_combinations_after_bh.csv', 
-			'significant_drug_effect_combinations_after_bh.csv',
-			'significant_effect_drug_combinations_after_bh.csv']
-
-
+filenames = ['symptom-symptom-frequency', 
+			 'drug-symptom-frequency',
+			 'drug-drug-frequency',
+			 'symptom-drug-frequency'] #drug symptoms repeated because p(s|e) neq p(e|s)
+ 
 dfs = [pd.read_csv(os.path.join(DATA_PATH,filename)) for filename in filenames]
 dfs[0]['source'] = "symptom-symptoms"
 dfs[1]['source'] = "drug-effect"
 dfs[2]['source'] = "effect-drug"
+dfs[3]['source'] = "drug-drug"
 
 df = pd.concat(dfs)
 df = df.drop(df.columns[[0,-2,-3]], axis=1)
