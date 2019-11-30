@@ -13,36 +13,38 @@ filenames = ['symptom-symptom-frequency',
 			 'drug-drug-frequency',
 			 'symptom-drug-frequency'] #drug symptoms repeated because p(s|e) neq p(e|s)
  
-dfs = [pd.read_csv(os.path.join(DATA_PATH,filename)) for filename in filenames]
+dfs = [pd.read_csv(os.path.join(DATA_PATH,"%s-pvalues.csv"%filename)) for filename in filenames]
 dfs[0]['source'] = "symptom-symptoms"
 dfs[1]['source'] = "drug-effect"
 dfs[2]['source'] = "effect-drug"
 dfs[3]['source'] = "drug-drug"
 
+fdr = 0.05
 df = pd.concat(dfs)
-df = df.drop(df.columns[[0,-2,-3]], axis=1)
-df.sort_values(by='p_value',inplace=True)
+df.drop(df.columns[0],axis=1,inplace=True)
+#df['p_value'] /= 100.
+df.sort_values(by='p_value',inplace=True, ascending=True)
+df['rank'] = df['p_value'].rank()
+df['bh_threshold'] = df['rank']/len(df['rank'])*fdr
+#sns.scatterplot(data=df['p_value'])
+#plt.show()
 
-sns.scatterplot(data=df['p_value'])
-plt.show()
-
-
-'''
-reject, adjusted_p_value = fdrcorrection(df['p_value'], method='negcorr', alpha=0.05)
-df['adjusted_p_value'] = adjusted_p_value
-df['should reject'] = reject
-print df['should reject'].describe()
-'''
-
-#df['fdr'] = df['p_value']/
 
 '''
 def fdr(p_vals):
-
     from scipy.stats import rankdata
     ranked_p_values = rankdata(p_vals)
     fdr = p_vals * len(p_vals) / ranked_p_values
     fdr[fdr > 1] = 1
-
     return fdr
+
+df['adjusted_p_value'] = fdr(df['p_value'])
+print df['adjusted_p_value'].describe()
 '''
+'''
+reject, adjusted_p_value = fdrcorrection(df['p_value'], method='negcorr', alpha=0.05)
+df['adjusted_p_value'] = adjusted_p_value
+df['should reject'] = reject
+'''
+print df.head(14) #everything is significant because the number of statements are so large. 
+#print df['should reject'].describe()

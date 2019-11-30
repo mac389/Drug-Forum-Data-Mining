@@ -54,7 +54,7 @@ for filename in tqdm(filenames,'Each File'):
 	dist.dropna(inplace=True)
 	dist = dist.to_numpy().ravel()
 
-	p_values['p_value'] = p_values['conditional_probability'].apply(lambda x: p_values.loc[p_values['conditional_probability']>=x]['conditional_probability'].sum())
+	p_values['p_value'] = p_values['conditional_probability'].apply(lambda x: (p_values['conditional_probability']>=x).sum())
 	p_values['p_value'] /= float(len(p_values['p_value']))
 	#pval = sum(s >= s0)/N
 
