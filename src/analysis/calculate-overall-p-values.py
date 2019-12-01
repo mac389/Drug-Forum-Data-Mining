@@ -14,10 +14,10 @@ filenames = ['symptom-symptom-frequency',
 			 'symptom-drug-frequency'] #drug symptoms repeated because p(s|e) neq p(e|s)
  
 dfs = [pd.read_csv(os.path.join(DATA_PATH,"%s-pvalues.csv"%filename)) for filename in filenames]
-dfs[0]['source'] = "symptom-symptoms"
+dfs[0]['source'] = "symptom-symptom"
 dfs[1]['source'] = "drug-effect"
-dfs[2]['source'] = "effect-drug"
-dfs[3]['source'] = "drug-drug"
+dfs[2]['source'] = "drug-drug"
+dfs[3]['source'] = "effect-drug"
 
 fdr = 0.05
 df = pd.concat(dfs)
@@ -48,3 +48,4 @@ df['should reject'] = reject
 '''
 print df.head(14) #everything is significant because the number of statements are so large. 
 #print df['should reject'].describe()
+df.to_csv(os.path.join(DATA_PATH,'knowledge-base-as-df.csv'),index=False)
