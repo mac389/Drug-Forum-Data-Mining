@@ -20,7 +20,7 @@ def make_function(aRow):
 	return """%.04f::%s(X,%s,%s)."""%(prob,head,s1,s2)
 
 
-with open(os.path.join('..','..','data','processed','symptom-symptom--kb.txt'),'w') as fout:
+with open(os.path.join('..','..','data','processed','kb.txt'),'w') as fout:
 	for _,row in df[df['p_value']<0.05].iterrows():
 		print make_function(row)
 
