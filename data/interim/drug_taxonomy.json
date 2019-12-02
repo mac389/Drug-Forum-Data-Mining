@@ -1,0 +1,88 @@
+{
+"serotonergic psychedelics" : {
+
+"substituted phenethylamine" : ["2c-t-21", "2-ct-2"], 
+"tryptamine" : ["5-meo-dmt", "4-ho-dipt", "methallylescaline","5-meo-amt", "4-meo-mipt",
+"4-ho-met", "dpt(hcl-salt)", "5meo-dmt","5meo-dipt", "dmt(m.hostilis)"],
+"substituted amphetamines" : ["tma", "doet"], 
+
+},
+"empathogens/entactogens" : {
+"substituted methylenedioxy-phenethylamines" : ["bk-mdea" , "ethylone", "bk-mdma"],
+
+"substituted amphetamines" : ["5-mapb"], 
+
+
+},
+"cannabinoids" : {
+"synthetic cannabinoids" : ["synthetic-cannabinoids","synthetic-cannabinoids('smiley-dog')","synthetic-cannabinoids('king-kong')","products(pulse)"],
+"phytocannabinoids" : ["hash"]
+},
+
+
+"cns stimulants" : {
+"amphetamines" : ["methamphetamine(desoxyn)", "dextro-amphetamine", "pma", "amphetamines(dextroamphetamine)"], 
+"others/didn't know how to classify" : ["dexmethylphenidate","strattera, atomoxetine", "caffeine"],
+
+},
+"barbiturate" : ["bariturates(pentobarbital(nembutal))", "barbiturates(phenobarbital)", "phenobarbital(nembutal)", "barbiturate"],
+
+
+"beta blocker" : ["atenolol", "tenormin"],
+"nicotine" : ["tobacco", "snuff", "n.rustica"],
+"pharmaceuticals/supplements" : ["vitamins","dmae(h3)", "gotu-kola", "magnesium-glyinate",
+"sildenafil", "ginko", "l-glutamine", "b-complex", "Niacin", "vitamin(b-6)", "Theanine", "l-tyrosine", "phenibut"],
+
+"cyclopyrrolones" : ["zopiclone"],
+"synthetic cathinone" : ["alpha-php"],
+"SSRI" : ["ssris(paroxetine)", "fluoxetine", "citalopram"],
+"protease inhibitor" : ["ritonavir"],
+"thienobenzodiazepine" : ["etizolam"],
+"benzodiazepine" : ["alprazolam", "temazepam"], 
+"anticonvulsant" : ["phenytoin(dilantin)"], 
+"atypical antipsychotics" : ["olanzapine(zyprexa)", "clozapine"], 
+"analgesic" : ["oxycodone(oxycontin)", "oxycodone"],
+
+"monoamine oxidase inhibitors" : ["moclobemide"], 
+
+"muscle relaxant" : ["methocarbamol(robaxin)"], 
+"inhalants" : ["isobutane","inhalants(nitrates)", "inhalants(duster)", "carbogen", "gasoline", "inhalants(computer-duster)"], 
+
+
+"psychedelic mushrooms" : ["cubensis"],
+"alpinia" : ["galangal"],
+"convolvulaceae" : ["morning-glory(lsa-extract)"],
+"mitragyna" : ["kratom", "kratom(powder)"], 
+"phalaris" : ["phalaris"],
+"mimosa" : ["mimosa-hostilis", "mimosa-tenuiflora","mimosa-tenuiflora(ayahuasca-analog)"],
+"verbascum" : ["mullein"],
+"brugmansia" : ["brugmansia-candida","brugmansia-sanguinea","brugsmansia-sanguinea"], 
+"salavia" : ["salvia-divinorium", "salvia-divinorum(20xextract)","divinorum(5xextract)"],
+"valeriana" : ["valerian-root"], 
+"amanita" : ["amanita"],
+"datura" : ["datura(jimson-weed)"] , 
+"aconitum" : ["monkshood"], 
+"cacti" : ["cactus"],
+"artemisia" : ["tarragon"],
+"diplopterys" : ["diplopterys-cabrerana"],
+"tabernanthe" : ["iboga"],
+"asteraceae" : ["chamomile(tea)"],
+"dioscorea" : ["dioscorea-dregeana(wild-yam)"],
+"apiaceae" : ["dill"],
+
+"other" : ["sleep", "meditation", "bodywork", "stilton" , "breathing", "hospital-delirium", "breathwork", "illness-induced-exhaustion",
+"device(binaural-beat-generator)", "nicotine-withdrawal", "others", "mindmachine"]
+
+}
+
+
+
+Don't know how to classify/mixed : [modafinil, hoasca, smoking-blends, methcathinone, hops('kush'), pseudoephedrine, guiding
+selegiline , hobo-absinthe, endogenous, doxylamine(unisom), naloxone(suboxone),
+skullcap(scutellaria-lateriflora),skullcap(american)[Dunno if its a pharm or plant that was used],
+mdvp, thujone(thuja-occidentalis), lavender, met
+napthylpyrovalerone(nrg-1), endogenous(fever), b.caapi, scopolamine(hyoscine-hydrobromide),endogenous-substances
+ayahuasca(psychotria-viridis(chacruna)).
+
+
+
