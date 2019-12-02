@@ -11,7 +11,7 @@
 
   We, following [Arp reference] created an ontology by first identifying all nouns from all posts using part-of-speech tagging. Author MC then manually successively extracted from this list any token that appeared to describe effects and then any token that appeared to describe a substance.  
 
-  We excluded from the ontology strings that were uninterpretable. Seee Supplement X for the lsit of excluded strings.   
+  We excluded from the ontology strings that were uninterpretable. See Supplement X for the list of excluded strings.   
 
 
 #### Creation of Markov Logic Statements.
