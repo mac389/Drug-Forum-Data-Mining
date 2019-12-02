@@ -29,18 +29,6 @@ df['bh_threshold'] = df['rank']/len(df['rank'])*fdr
 #sns.scatterplot(data=df['p_value'])
 #plt.show()
 
-
-'''
-def fdr(p_vals):
-    from scipy.stats import rankdata
-    ranked_p_values = rankdata(p_vals)
-    fdr = p_vals * len(p_vals) / ranked_p_values
-    fdr[fdr > 1] = 1
-    return fdr
-
-df['adjusted_p_value'] = fdr(df['p_value'])
-print df['adjusted_p_value'].describe()
-'''
 '''
 reject, adjusted_p_value = fdrcorrection(df['p_value'], method='negcorr', alpha=0.05)
 df['adjusted_p_value'] = adjusted_p_value

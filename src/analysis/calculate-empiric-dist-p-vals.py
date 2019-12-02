@@ -17,7 +17,9 @@ filenames = ['symptom-symptom-frequency',
 
 def from_occurences_to_conditional_probs(df):
 	baseline_probabilities = df.sum(axis=1)/(df.sum(axis=1).sum())
+	#rows contain variable conditioning on p(col | row)
 	overall_sum = df.sum().sum()
+
 
 	conditional_prob_df = df.copy(deep=True)
 	conditional_prob_df /= overall_sum
@@ -28,16 +30,16 @@ def from_occurences_to_conditional_probs(df):
 ds_count = 0
 for filename in tqdm(filenames,'Each File'): 
 	if filename == 'symptom-drug-frequency':
-		ds_count += 1
 		df = pd.read_csv(os.path.join(DATA_PATH,'drug-symptom-frequency.csv'),index_col=0)
 		df = df.transpose()
 	else:
 		df = pd.read_csv(os.path.join(DATA_PATH,'%s.csv'%filename),index_col=0)
 
-	
-	data = [("%s|%s"%(col,row),df.loc[row,col]) 
-				for row in df.index 
-				for col in df.columns
+	dfx = df.copy(deep=True)
+	dfx = from_occurences_to_conditional_probs(df)
+	data = [("%s|%s"%(col,row),dfx.loc[row,col]) 
+				for row in dfx.index 
+				for col in dfx.columns
 				if row != col]
 
 
