@@ -18,7 +18,7 @@ p = PrologString(kb+ '\n'+ """\n
 :- use_module(library(lists)).
 
 person(1).
-query(effect_substance(1,perception,_)).
+query(substance_effect(1,lsd,_)).
 """)
 
 def get_last_two(axiom_args):
@@ -32,6 +32,8 @@ res = get_evaluatable().create_from(p).evaluate()
 import seaborn as sns
 
 df = pd.DataFrame([get_last_two(axiom.args)+[probability] for axiom,probability in res.items()], columns = ['effect','substance','probability'])
+
+print(df)
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
