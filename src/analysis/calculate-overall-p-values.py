@@ -4,8 +4,6 @@ import pandas as pd
 import seaborn as sns 
 import matplotlib.pyplot as plt
 
-from statsmodels.stats.multitest import fdrcorrection
-
 DATA_PATH = os.path.join('..','..','data','processed')
 
 filenames = ['symptom-symptom-frequency', 
@@ -34,6 +32,6 @@ reject, adjusted_p_value = fdrcorrection(df['p_value'], method='negcorr', alpha=
 df['adjusted_p_value'] = adjusted_p_value
 df['should reject'] = reject
 '''
-print df.head(14) #everything is significant because the number of statements are so large. 
+print(df.head(14)) #everything is significant because the number of statements are so large. 
 #print df['should reject'].describe()
-df.to_csv(os.path.join(DATA_PATH,'knowledge-base-as-df.csv'),index=False)
+#df.to_csv(os.path.join(DATA_PATH,'knowledge-base-as-df.csv'),index=False)
