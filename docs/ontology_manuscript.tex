@@ -1,0 +1,281 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\date{}
+
+\begin{document}
+
+\hypertarget{header-n0}{%
+\subsubsection{\texorpdfstring{Introduction
+}{Introduction }}\label{header-n0}}
+
+\hypertarget{header-n3}{%
+\subsubsection{Methods}\label{header-n3}}
+
+We analyze the contents of Lycaeum from X to Y. Lycaeum is an online
+forum devoted to providing information about substances to encourage
+safe and informed use. Please see {[}candyflipping article{]} for a
+detailed description of the acquisition of text from Lycaeum.
+
+Calculation of conditional probabilities
+
+\hypertarget{header-n7}{%
+\paragraph{Creation of Ontology.}\label{header-n7}}
+
+We created an ontology of novel psychoactive substances for two
+purposes, to provide a tool to acceleratee the processing of
+unstructured text that describes the use of novel psychoactive substance
+and to provide a systematic interface to the data in that manuscript and
+developing a system to coregister these data with those contained in
+databases about molecular function. These goals correspond to two
+different ontologies, one that describes the pattern of appearance of
+tokens and one that links those tokens to the physical object to which
+they refer. This corresponds to the \emph{use-mention} distinction
+{[}Arp reference{]}. We termed the ontologies \emph{ops-use} and
+\emph{ops-mention}.
+
+We, following {[}Arp reference{]} created an ontology by first
+identifying all nouns from all posts using part-of-speech tagging.
+Author MC then manually successively extracted from this list any token
+that appeared to describe effects and then any token that appeared to
+describe a substance.
+
+We excluded from the ontology strings that were uninterpretable. See
+Supplement X for the list of excluded strings.
+
+\hypertarget{header-n12}{%
+\paragraph{Creation of Markov Logic Statements.}\label{header-n12}}
+
+A Markov Logic statement has the general form, \$p\textbackslash;
+f\textbackslash left(x,y,\textbackslash ldots\textbackslash right)\$,
+where \$p \textbackslash in
+\textbackslash left(0,1\textbackslash right)\$ represents the chance
+that the statement is true and
+\$f\textbackslash left(x,y,\textbackslash ldots\textbackslash right)\$
+is a decidable statement about entities \$x,y,\textbackslash ldots\$.
+The Markov Logic statment \$0.4 \textbackslash;
+\textbackslash textrm\{hasToxidrome\}\textbackslash left(X,\textbackslash textrm\{cholinergic\}\textbackslash right)\$
+represents that an individual X has a cholinergic toxidrome in 40\% of
+possible worlds. We derived the logical statements from the ontology and
+probabilities from the frequency with which the terms used in the
+ontology appeared in theh Lycaeum corpus. In the preceding example,
+\emph{0.4} would represent the fraction of times the cholinergic
+toxidrome was mentioned in the Lycaeum corpus.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{p ingested(}\DataTypeTok{X}\KeywordTok{,}\NormalTok{s) }\CommentTok{\% probability p that entity X recently substance s}
+\NormalTok{p effect(}\DataTypeTok{X}\KeywordTok{,}\NormalTok{e) }\CommentTok{\% probability p that entity X is experiencing effect e}
+\end{Highlighting}
+\end{Shaded}
+
+Code block X states, in a variant of Prolog called Problog, the three
+Markov lgoic statements that represent the probabilistic relationships
+between all significantly co-occurring substance-effect,
+substance-substance, and effect-effect pairs in our Lycaeum corpus.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{ p1 substance\_effect(}\DataTypeTok{X}\KeywordTok{,}\NormalTok{s1}\KeywordTok{,}\NormalTok{e)}\KeywordTok{.}
+\NormalTok{ p2 effect\_substance(}\DataTypeTok{X}\KeywordTok{,}\NormalTok{e}\KeywordTok{,}\NormalTok{s1)}\KeywordTok{.}
+\NormalTok{ p3 substance\_substance(}\DataTypeTok{X}\KeywordTok{,}\NormalTok{s2}\KeywordTok{,}\NormalTok{s1)}\KeywordTok{.}
+\NormalTok{ p4 effect\_effect(}\DataTypeTok{X}\KeywordTok{,}\NormalTok{s2}\KeywordTok{,}\NormalTok{s1)}\KeywordTok{.}
+\end{Highlighting}
+\end{Shaded}
+
+The first goal states that if individual \$X\$ ingested substance
+\$s\emph{1\$, then \$X\$ has a likelihood \$p}1\$ of experiencing effect
+\$e\$. We calculated \$p\emph{1\$ as the conditional probability,
+\$p\textbackslash left(e\textbar s}1\textbackslash right)\$, by counting
+all posts that mentioned effect \$e\$ and substance \$s\emph{1\$ and
+dividing that quantity by the count of all posts mentioning substance
+\$e\$. We instantiated this goal only for substance-effect pairs whose
+conditional probability was statistically significantly greater than
+chance, after using the Benjamini-Hochberg correction to adjust the
+false disccovery rate to \$0.05\$ . We calculated the second goal, which
+is the inverse of the first, and probability,
+\$p\textbackslash left(s}1\textbackslash right\textbar e)\$
+analogouosly. The order of arguments is important. In general, for any
+different occurrences \$x\$ or \$y\$,
+\$p\textbackslash left(x\textbar y\textbackslash right)
+\textbackslash neq p\textbackslash left(y \textbar{}
+x\textbackslash right)\$.
+
+The third goal states that if individual \emph{\$X\$} ingested substance
+\$s\emph{1\$, then \$X\$ has a likelihood \$p\$ of having also ingested
+substance \$s}2\$. We calculated
+\$p\textbackslash left(s\emph{2\textbar s}1\textbackslash right)\$ by
+counting all posts that mentioned both substances and then dividing that
+quantity by the count of all posts that mentioned \$s\_1\$. The fourth
+goal is the third goal but stated for effects.
+
+\hypertarget{header-n23}{%
+\paragraph{\texorpdfstring{Determination of statistical significance.
+}{Determination of statistical significance. }}\label{header-n23}}
+
+We calculated an empiric probability distribution for the conditional
+probabilities in each category (substance-substance, substance-effect or
+effect-substance, or effect-effect). For each pair we computed the
+\$p\$-value from the pair's rank in the corresponding distribution. We
+adjusted the false discovery rate to 0.05 using the Benjamini-Yuetieli
+correction. We included in the knowledge base only pairs whose p-value
+indicated that the conditional probability
+
+\hypertarget{header-n27}{%
+\subsubsection{\texorpdfstring{Results. }{Results. }}\label{header-n27}}
+
+\hypertarget{header-n28}{%
+\paragraph{\texorpdfstring{Ontology. }{Ontology. }}\label{header-n28}}
+
+We identified \$33\$ unique effects (Supplemental Table 1) and \$637\$
+unique substances \\
+(Supplemental Table 2). This yielded
+\$1056=33\textbackslash cdot\textbackslash left(33-1\textbackslash right)\$
+effect-effect pairs, \$405,132 =
+637\textbackslash cdot\textbackslash left(637-1\textbackslash right)\$
+substance-substance-pairs, and \$21,021 = 637 \textbackslash cdot 33\$
+substance-effect pairs.
+
+\hypertarget{header-n30}{%
+\paragraph{Markov Logic Statements.}\label{header-n30}}
+
+\hypertarget{header-n32}{%
+\paragraph{\texorpdfstring{Validation of Construction
+}{Validation of Construction }}\label{header-n32}}
+
+\hypertarget{header-n33}{%
+\paragraph{Synthetic Data Set}\label{header-n33}}
+
+To assess the internal consistency of our large-scale calculations of
+conditional probability and
+
+\hypertarget{header-n37}{%
+\paragraph{Evaluation of Knowledge Base.}\label{header-n37}}
+
+\hypertarget{header-n38}{%
+\paragraph{\texorpdfstring{ }{ }}\label{header-n38}}
+
+\hypertarget{header-n40}{%
+\subsubsection{Conclusions}\label{header-n40}}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{header-n43}{%
+\section{\texorpdfstring{Supplementary Material
+}{Supplementary Material }}\label{header-n43}}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+emotion & property of toxin & & &\tabularnewline
+\midrule
+\endhead
+global nervous system & somatic sensation & & &\tabularnewline
+immunologic & neurologic disorder & & &\tabularnewline
+motor & perception & & &\tabularnewline
+misclassified & endocrine & & &\tabularnewline
+gastrointestinal & sense of self & & &\tabularnewline
+song references & use of substance & & &\tabularnewline
+cardiovascular & sexual activity & & &\tabularnewline
+genitourinary & uninterpretable & & &\tabularnewline
+oncologic & respiratory & & &\tabularnewline
+written media references & activity references & & &\tabularnewline
+chemical process & renal & & &\tabularnewline
+metabolic & esp & & &\tabularnewline
+hematologic & infectious & & &\tabularnewline
+musculoskeletal & cognitive ability & & &\tabularnewline
+place references & behavior & & &\tabularnewline
+& integumentary & & &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\end{document}
