@@ -26,6 +26,9 @@ df.drop(df.columns[0],axis=1,inplace=True)
 df.sort_values(by='p_value',inplace=True, ascending=True)
 df['rank'] = df['p_value'].rank()
 df['bh_threshold'] = df['rank']/len(df['rank'])*fdr
+
+
+print df.loc[df['name']=='LSD|LSD']
 #sns.scatterplot(data=df['p_value'])
 #plt.show()
 
@@ -34,6 +37,6 @@ reject, adjusted_p_value = fdrcorrection(df['p_value'], method='negcorr', alpha=
 df['adjusted_p_value'] = adjusted_p_value
 df['should reject'] = reject
 '''
-print df.head(14) #everything is significant because the number of statements are so large. 
+print df.head(14) #nothing is significant because the number of statements are so large. 
 #print df['should reject'].describe()
-df.to_csv(os.path.join(DATA_PATH,'knowledge-base-as-df.csv'),index=False)
+#df.to_csv(os.path.join(DATA_PATH,'knowledge-base-as-df.csv'),index=False)

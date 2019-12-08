@@ -1,7 +1,7 @@
 import pandas as pd
 
-df = pd.DataFrame([[1,2,3],[2,3,4],[3,4,5],[1,2,4]], 
-		columns = ['a','b','c'],index=['d','e','f','g'])
+df = pd.DataFrame([[1,2,3],[2,3,4],[3,4,5]], 
+		columns = ['a','b','c'],index=['d','e','f',])
 
 def from_occurences_to_conditional_probs(df):
 	baseline_probabilities = df.sum(axis=1)/(df.sum(axis=1).sum())
@@ -17,6 +17,9 @@ def from_occurences_to_conditional_probs(df):
 
 #print df
 x = from_occurences_to_conditional_probs(df)
-df1 = x.stack().rename_axis(('conditioning event','event')).reset_index(name='probabilitiy')
+df1 = x.stack().rename_axis(('other','prior')).reset_index(name='probabilitiy')
+
+print df 
+print x
 
 print df1

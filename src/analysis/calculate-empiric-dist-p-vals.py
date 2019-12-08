@@ -38,9 +38,7 @@ for filename in tqdm(filenames,'Each File'):
 	dfx = df.copy(deep=True)
 	dfx = from_occurences_to_conditional_probs(df)
 	data = [("%s|%s"%(col,row),dfx.loc[row,col]) 
-				for row in dfx.index 
-				for col in dfx.columns
-				if row != col]
+				for row in dfx.index for col in dfx.columns]
 
 
 	p_values = pd.DataFrame(data,columns=['name','conditional_probability'])

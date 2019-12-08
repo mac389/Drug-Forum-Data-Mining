@@ -1,5 +1,15 @@
 ### Introduction 
 
+We aimed to construct a knowledge base of the usage and effects of novel psychoactive substances (NPS) as desribed on the Internet. This knowledge base, dubbed _psychoactive_, will guide epidemiologic and biochemical investigations of NPS. _Pyschoactive_ extends previous work by using conditional probability rather than correlation to quantify the relationship between two substances or effects. 
+
+Knowing that an effect is more likely to be experienced after one substances over another can guide biochemical investigations. ...
+
+
+
+Knowledge of the inverse probability, that ingestion of one drug is more likely than another given the observance of a certain effect, is informative for epidemiologists and clinicians. 
+
+
+
 
 ### Methods
 
