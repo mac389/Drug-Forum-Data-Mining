@@ -25,7 +25,10 @@ for not_standardized_drug_name in tqdm(not_standardized_drug_names,"building ind
 		if not_standardized_drug_name in entry['text'] or not_standardized_drug_name in entry['drugs']:
 			drug_index[spelling_ontology[not_standardized_drug_name]] += [title]
 
+
 for standardized_drug_name in tqdm(standardized_drug_names,'populating diagonal'):
+	if standardized_drug_name == 'thymiquinone':
+		print drug_index[standardized_drug_name], set(drug_index[standardized_drug_name])
 	df.loc[standardized_drug_name,standardized_drug_name] = len(drug_index[standardized_drug_name])
 
 for drug_one,drug_two in tqdm(list(itertools.combinations(standardized_drug_names,2))

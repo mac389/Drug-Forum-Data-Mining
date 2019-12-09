@@ -17,9 +17,8 @@ kb = open(os.path.join(DATA_PATH,'processed','kb.txt'),'r').read()
 p = PrologString(kb+ '\n'+ """\n	
 :- use_module(library(lists)).
 
-person(1).
-query(substance_effect(1,lsd,behavior)).
-query(effect_substance(1,behavior,lsd)).
+%query(substance_effect(lsd,behavior)).
+query(substance_substance(lsd,_)).
 """)
 
 def get_last_two(axiom_args):
@@ -29,20 +28,16 @@ def get_last_two(axiom_args):
 	return [one,two]
 
 res = get_evaluatable().create_from(p).evaluate()
+print res 
 
-print(res)
-
-'''
 import seaborn as sns
 
 df = pd.DataFrame([get_last_two(axiom.args)+[probability] for axiom,probability in res.items()], columns = ['effect','substance','probability'])
 
-print(df)
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
-sns.barplot(y='substance',x='probability', data=df)
-ax.set_title('Relative Efficacy for Altering Perception')
+sns.barplot(y='entity',x='probability', data=df)
+#ax.set_title('Relative Efficacy for Altering Perception')
 sns.despine(offset=10)
 plt.show()
-'''

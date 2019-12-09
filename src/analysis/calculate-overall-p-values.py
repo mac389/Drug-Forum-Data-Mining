@@ -1,5 +1,6 @@
 import os 
 
+import numpy as np 
 import pandas as pd
 import seaborn as sns 
 import matplotlib.pyplot as plt
@@ -13,6 +14,13 @@ filenames = ['symptom-symptom-frequency',
 			 'drug-drug-frequency',
 			 'symptom-drug-frequency'] #drug symptoms repeated because p(s|e) neq p(e|s)
  
+def is_identity(aStr):
+	a,b = aStr.strip().split('|')
+	a = a.strip()
+	b = b.strip()
+
+	return 'unconditional' if a == b else 'conditional'
+
 dfs = [pd.read_csv(os.path.join(DATA_PATH,"%s-pvalues.csv"%filename)) for filename in filenames]
 dfs[0]['source'] = "symptom-symptom"
 dfs[1]['source'] = "drug-effect"
@@ -27,9 +35,7 @@ df.drop(df.columns[0],axis=1,inplace=True)
 df.sort_values(by='p_value',inplace=True, ascending=True)
 df['rank'] = df['p_value'].rank()
 df['bh_threshold'] = df['rank']/len(df['rank'])*fdr
-
-
-print df.loc[df['name']=='LSD|LSD']
+df['p type'] = df['name'].apply(is_identity)
 #sns.scatterplot(data=df['p_value'])
 #plt.show()
 
@@ -41,4 +47,4 @@ df['should accept'] = df['p_value']<df['bh_threshold']
 print(df.head(14)) 
 print(df['should accept'].describe())
 #nothing is significant because the number of statements are so large. 
-#df.to_csv(os.path.join(DATA_PATH,'knowledge-base-as-df.csv'),index=False)
+df.to_csv(os.path.join(DATA_PATH,'knowledge-base-as-df.csv'),index=False)
