@@ -16,9 +16,11 @@ bayes_factors = defaultdict(dict)
 
 for prior in tqdm(conditional_probabilities):
 	for marginal in conditional_probabilities[prior]:
-		if unconditional_probabilities[prior] > 0:
-			bayes_factors[prior][marginal] = conditional_probabilities[prior][marginal]/unconditional_probabilities[prior]
+		if any([np.isnan(conditional_probabilities[prior][marginal]),np.isnan(unconditional_probabilities[prior]),
+				unconditional_probabilities[prior]==0]):
+			bayes_factors[prior][marginal] = "null"
 		else:
-			bayes_factors[prior][marginal] = np.nan
+			bayes_factors[prior][marginal] = conditional_probabilities[prior][marginal]/unconditional_probabilities[prior]
 
-json.dump(bayes_factors,open(os.path.join(DATA_PATH,'bayes_factors.json'),'w'))
+#print(bayes_factors)
+json.dump(dict(bayes_factors),open(os.path.join(DATA_PATH,'bayes_factors.json'),'w'))
