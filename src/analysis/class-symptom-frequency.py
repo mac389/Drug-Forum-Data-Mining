@@ -6,7 +6,7 @@ import numpy as np
 
 from tqdm import tqdm 
 DATA_PATH = os.path.join('..','..','data','processed')
-dd = pd.read_csv(os.path.join(DATA_PATH,'drug-drug-frequency.csv'), index_col=0)
+ds = pd.read_csv(os.path.join(DATA_PATH,'drug-symptom-frequency.csv'), index_col=0)
 drug_ontology = json.load(open(os.path.join(DATA_PATH,'drug-name-hierarchy.json'),'r'))
 
 def invert(d):
@@ -26,4 +26,4 @@ print len(dd)**2
 for one,two in tqdm(itertools.product(dd.index,repeat=2)):
 	df.loc[reverse_drug_taxonomy[one],reverse_drug_taxonomy[two]] += dd.loc[one,two]
 
-df.to_csv(os.path.join(DATA_PATH,'class-class-frequency.csv'))
+df.to_csv(os.path.join(DATA_PATH,'class-symptom-frequency.csv'))
