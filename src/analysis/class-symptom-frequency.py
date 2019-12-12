@@ -19,11 +19,12 @@ drug_taxonomy = {key:list(value.keys()) for key,value in drug_ontology.items()}
 reverse_drug_taxonomy = invert(drug_taxonomy)
 
 
-df = pd.DataFrame(np.zeros((len(drug_taxonomy),len(drug_taxonomy))),
-	columns=drug_taxonomy.keys(),index=drug_taxonomy.keys())
+df = pd.DataFrame(np.zeros((len(drug_taxonomy),len(ds.columns))),
+	columns=ds.columns.values,index=drug_taxonomy.keys())
 
-print len(dd)**2
-for one,two in tqdm(itertools.product(dd.index,repeat=2)):
-	df.loc[reverse_drug_taxonomy[one],reverse_drug_taxonomy[two]] += dd.loc[one,two]
+for drug in tqdm(ds.index.values,'Drug'):
+	for symptom in tqdm(ds.columns.values,'Symptom'):
+		df.loc[reverse_drug_taxonomy[drug],symptom] += ds.loc[drug,symptom]
 
-df.to_csv(os.path.join(DATA_PATH,'class-symptom-frequency.csv'))
+df.to_csv(os.path.join(DATA_PATH,'symptom-class-frequency.csv'))
+df.transpose().to_csv(os.path.join(DATA_PATH,'class-symptom-frequency.csv'))
