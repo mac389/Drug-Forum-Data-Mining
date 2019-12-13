@@ -10,63 +10,123 @@ from sklearn.utils import resample
 DATA_PATH = os.path.join('..','..','data','processed')
 
 filenames = ['symptom-symptom-frequency', 
-			 'drug-symptom-frequency',
-			 'drug-drug-frequency',
-			 'symptom-drug-frequency'] #drug symptoms repeated because p(s|e) neq p(e|s)
+			 'class-symptom-frequency',
+			 'class-class-frequency',
+			 'symptom-class-frequency'] #class symptoms repeated because p(s|e) neq p(e|s)
  
 
-def from_occurences_to_conditional_probs(df, mode='symmetric'):
+ss = pd.read_csv(os.path.join(DATA_PATH,'symptom-symptom-frequency.csv'),index_col=0)
+ds = pd.read_csv(os.path.join(DATA_PATH,'class-symptom-frequency.csv'),index_col=0)
+dd = pd.read_csv(os.path.join(DATA_PATH,'class-class-frequency.csv'),index_col=0)
+sd = pd.read_csv(os.path.join(DATA_PATH,'symptom-class-frequency.csv'),index_col=0)
+
+def from_occurences_to_conditional_probs(arrs):
+
+	dd_diag = np.diag(arrs['dd']).sum().astype(float)
+	ss_diag = np.diag(arrs['ss']).sum().astype(float)
+
+	drugs = arrs['dd'].index.unique().tolist()
+	symptoms = arrs['ss'].index.unique().tolist()
 	'''
 	rows contain variable conditioning on p(col | row)
 	p (col | row) = p(col,row)/p(row)
 	'''
+	ans = {key:pd.DataFrame(0,index=value.index,columns=value.columns) 
+			for key,value in arrs.items()}
+	exceptions = []
+	for prior, marginal in itertools.product(drugs+symptoms,repeat=2):
+		#calculate conditional probability the inefficient way
 
-	if mode == 'symmetric': # drug-drug or symptom-symptom
-		b = df.max(axis=1) 
-		b /= b.sum() # this represents p(b)
+		#P(prior,marginal)/P(marginal)
 
-		overall_sum = np.diag(df.to_numpy()).sum() #this is the denominator for p(a & b)
+		#print 'Marginal %s, Prior %s'%(marginal,prior)
 
-	elif mode == 'cross':
-		b = df.sum(axis=1)/(df.sum(axis=1).sum())
-		overall_sum = df.sum().sum()
+		if prior != marginal:
+			if prior in drugs:
+				if marginal in drugs: #Drug-Drug
+					p__a_and_b = arrs['dd'].loc[marginal,prior]/(dd_diag*dd_diag)
+					p__b = arrs['dd'].loc[marginal,marginal]/dd_diag
+					#unconditional_probability[prior] = dd.loc[prior][prior]/(dd_diag)
+					switch = 'dd'	
+				elif marginal in symptoms: #Drug-Symptom
+					p__a_and_b = arrs['sd'].loc[marginal,prior]/(dd_diag*ss_diag)
+					p__b = arrs['ss'].loc[marginal,marginal]/ss_diag
+					switch = 'sd'
+				else:
+					exceptions += [(marginal,'marginal not in drugs or symptoms')]
+					switch='error'
+			elif prior in symptoms:
+				if marginal in drugs: #Symptom-Drug
+					p__a_and_b = arrs['ds'].loc[marginal,prior]/(dd_diag*ss_diag)
+					p__b = ans['dd'].loc[marginal,marginal]/dd_diag
+					switch = 'ds'
+				elif marginal in symptoms: #Symptom-Symptom
+					switch = 'ss'
+					p__a_and_b = arrs['ss'].loc[marginal,prior]/(ss_diag*ss_diag)
+					p__b = arrs['ss'].loc[marginal,marginal]/ss_diag
+				else:
+					exceptions += [(marginal,'marginal not in drugs or symptoms')]
+			else:
+				exceptions += [(prior,'prior not in drugs or symptoms')]
+		
+			conditional_probability = p__a_and_b/p__b if p__b > 0 else np.nan
 
-	conditional_prob_df = df.copy(deep=True)
-	conditional_prob_df /= overall_sum # the quotient is p(a & b)
-	conditional_prob_df = conditional_prob_df.divide(b, axis=0) # this is p(a & b)/p(b)
+			ans[switch][prior][marginal] = conditional_probability
 
-	return conditional_prob_df
+	return ans,exceptions
 
-ds_count = 0
-for filename in tqdm(filenames,'Each File'): 
-	if filename == 'symptom-drug-frequency':
-		df = pd.read_csv(os.path.join(DATA_PATH,'drug-symptom-frequency.csv'),index_col=0)
-		df = df.transpose()
-	else:
-		df = pd.read_csv(os.path.join(DATA_PATH,'%s.csv'%filename),index_col=0)
+#Initial conditional probability
+arr =  {'ds':ds,'dd':dd,'sd':sd,'ss':ss}
+cprobs,_ = from_occurences_to_conditional_probs(arr)
+data = pd.DataFrame([[col,row,df.loc[row,col],source] 
+		for source,df in cprobs.items()
+		for row in df.index for col in df.columns], 
+		columns=['prior','marginal','conditional_probability','source'])
 
-	dfx = df.copy(deep=True)
-	mode = 'symmetric' if ('drug' not in filename and 'symptom' not in filename) else 'cross'
-	dfx = from_occurences_to_conditional_probs(df, mode=mode)
-	data = [("%s|%s"%(col,row),dfx.loc[row,col]) 
-				for row in dfx.index for col in dfx.columns if row != col]
+data = data.dropna()
+
+def unconditional_probability(name):
+	if name in dd.index:
+		return dd.loc[name,name]/np.diag(dd).sum().astype(float)
+	elif name in ss.index:
+		return ss.loc[name,name]/np.diag(ss).sum().astype(float)
+
+all_exceptions = []
+n = 10
+x = [] 
+for _ in tqdm(range(n),'bootstrapping'):
 
 
-	p_values = pd.DataFrame(data,columns=['name','conditional_probability'])
-	p_values = p_values[(~p_values['conditional_probability'].isna()) & (p_values['conditional_probability']!=0)]
-	p_values['percentile'] = p_values['conditional_probability'].rank(pct=True)
+	ss1 = pd.DataFrame(resample(ss.to_numpy()),index=ss.index,columns=ss.columns)
+	dd1 = pd.DataFrame(resample(dd.to_numpy()),index=dd.index,columns=dd.columns)
+	ds1 = pd.DataFrame(resample(ds.to_numpy()),index=ds.index,columns=ds.columns)
+	sd1 = pd.DataFrame(resample(sd.to_numpy()),index=sd.index,columns=sd.columns)
 
-	n = 1000 #number of times to resample
-	x = []
-	for _ in tqdm(range(n),'bootstrapping'):
-		x += [from_occurences_to_conditional_probs(resample(df), mode=mode).to_numpy()]
+	arrs,exceptions = from_occurences_to_conditional_probs({'ds':ds1,'dd':dd1,'sd':sd1,'ss':ss1})
+ 	x += [arr.to_numpy().flatten() for arr in arrs.values()]
+ 	all_exceptions += exceptions
 
-	dist = pd.DataFrame(list(itertools.chain.from_iterable(x)))
-	dist.dropna(inplace=True)
-	dist = dist.to_numpy().ravel()
+x = np.concatenate(x)
+x = x[~np.isnan(x)]
 
-	p_values['p_value'] = p_values['conditional_probability'].apply(lambda x: (p_values['conditional_probability']>=x).sum())
-	p_values['p_value'] /= float(len(p_values['p_value']))
-	#pval = sum(s >= s0)/N
+all_exceptions = list(itertools.chain.from_iterable(all_exceptions))
+if len(all_exceptions) > 0:
+	print all_exceptions
+else:
+	print 'No exceptions'
 
-	p_values.to_csv(os.path.join(DATA_PATH,'%s-pvalues.csv'%(filename)))
+fdr = 0.05
+data['percentile'] = data['conditional_probability'].rank(pct=True)
+data['p_value'] = data['conditional_probability'].apply(lambda x: (data['conditional_probability']>=x).sum())
+data['p_value'] /= float(len(data['p_value']))
+
+data['bh_thresh'] = data['conditional_probability'].rank()
+data['bh_thresh'] *= fdr 
+data['bh_thresh'] /= len(data)
+
+data['bayes ratio'] = [row['conditional_probability']/unconditional_probability(row['prior']) for _,row in data.iterrows()]
+data.sort_values(by='p_value',ascending=True, inplace=True)
+#print data
+#pval = sum(s >= s0)/N
+data.to_csv(os.path.join(DATA_PATH,'cprobs-pvalues.csv'))
+
