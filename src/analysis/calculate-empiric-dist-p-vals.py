@@ -92,21 +92,15 @@ def unconditional_probability(name):
 		return ss.loc[name,name]/np.diag(ss).sum().astype(float)
 
 all_exceptions = []
-n = 2
+n = 10
 x = [] 
 for _ in tqdm(range(n),'bootstrapping'):
 
-	'''
+
 	ss1 = pd.DataFrame(resample(ss.to_numpy()),index=ss.index,columns=ss.columns)
 	dd1 = pd.DataFrame(resample(dd.to_numpy()),index=dd.index,columns=dd.columns)
 	ds1 = pd.DataFrame(resample(ds.to_numpy()),index=ds.index,columns=ds.columns)
 	sd1 = pd.DataFrame(resample(sd.to_numpy()),index=sd.index,columns=sd.columns)
-	'''
-
-	ss1 = ss.sample(frac=1).transpose().sample(frac=1)
-	dd1 = dd.sample(frac=1).transpose().sample(frac=1)
-	sd1 = sd.sample(frac=1).transpose().sample(frac=1)
-	ds1 = ds.sample(frac=1).transpose().sample(frac=1)
 
 	arrs,exceptions = from_occurences_to_conditional_probs({'ds':ds1,'dd':dd1,'sd':sd1,'ss':ss1})
  	x += [arr.to_numpy().flatten() for arr in arrs.values()]
@@ -131,8 +125,8 @@ data['bh_thresh'] *= fdr
 data['bh_thresh'] /= len(data)
 
 data['bayes ratio'] = [row['conditional_probability']/unconditional_probability(row['prior']) for _,row in data.iterrows()]
-data.sort_values(by='bayes ratio',ascending=False, inplace=True)
-print data
+data.sort_values(by='p_value',ascending=True, inplace=True)
+#print data
 #pval = sum(s >= s0)/N
-data.to_csv(os.path.join(DATA_PATH,'cprobs-pvalues.csv'%(filename)))
+data.to_csv(os.path.join(DATA_PATH,'cprobs-pvalues.csv'))
 
