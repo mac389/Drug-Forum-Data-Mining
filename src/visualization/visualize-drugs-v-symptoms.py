@@ -7,10 +7,15 @@ import numpy as np
 
 from awesome_print import ap 
 
+'''
+For old datanow in Area 51
 df = pd.DataFrame.from_dict(json.load(open(os.path.join('..','..','data','interim','drugs_symptoms_with_ontology.json'),'r'))
 		,orient='index')
 
 df = np.log(df+1)
+'''
+
+df = pd.read_csv(os.path.join('..','..','data','processed','drug-symptom.csv'))
 
 #xsns.heatmap(df.corr(method='spearman'),annot=False,cmap="bone_r")
 g = sns.clustermap(df.transpose().corr(method='spearman').fillna(0),annot=False, cmap = "bone_r")

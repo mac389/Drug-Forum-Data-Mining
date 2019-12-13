@@ -12,7 +12,6 @@ drug_ontology = json.load(open(os.path.join(DATA_PATH,'drug-name-hierarchy.json'
 def invert(d):
     return dict( (v,k) for k in d for v in d[k] )
 
-
 #Reformat drug taxonomy to be in "class:[all members]"
 drug_taxonomy = {key:list(value.keys()) for key,value in drug_ontology.items()}
 
