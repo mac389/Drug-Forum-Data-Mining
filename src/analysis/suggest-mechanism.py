@@ -54,7 +54,7 @@ for substance in substances:
 for substance in substances: 
 	for outgoing in substances[substance]['CHEBI record'].get_outgoings():
 		target = chebi.ChebiEntity(outgoing.get_target_chebi_id())
-		print '\t' + outgoing.get_type() + '\t' + target.get_name()
+		print('\t' + outgoing.get_type() + '\t' + target.get_name())
 
 '''
 #cross-reference with kegg pathway
