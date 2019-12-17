@@ -1,0 +1,39 @@
+import os, json, itertools 
+
+from collections import defaultdict
+from tqdm import tqdm 
+from awesome_print import ap 
+
+import pandas as pd 
+
+def flatten(container):
+    for i in container:
+        if isinstance(i, (list,tuple,dict)):
+            for j in flatten(i):
+                yield j
+        else:
+            yield i
+
+DATA_PATH = os.path.join('..','..','data')
+
+db = json.load(open(os.path.join(DATA_PATH,'processed','lycaeum-forum-processed-has-drug-names.json'),'r'))
+
+ontology = json.load(open(os.path.join(DATA_PATH,'processed','symptom-ontology.json'),'r'))
+symptom_index = defaultdict(list)
+
+
+ontology_lookup_table = {key:list(flatten(ontology[key]))for key in ontology.keys()}
+symptoms = {value:key for key in ontology_lookup_table for value in ontology_lookup_table[key]}
+
+#reverse symptom directory to create nonstandard -> standard lookup table 
+
+standardized_symptom_names = list(set(symptoms.values()))
+df = pd.DataFrame(0,index=db.keys(),columns=standardized_symptom_names)
+
+for nonstandard,standard in tqdm(symptoms.items(),"building index"):
+  for title,entry in db.items():
+    if nonstandard in entry['text'] or nonstandard in entry['drugs']:
+      df[title,standard] = 1
+
+#itertools.combinations doesn't always stay in upper or lower triangle
+df.to_csv(os.path.join(DATA_PATH,'processed','document-symptom-frequency-frequency.csv'))
